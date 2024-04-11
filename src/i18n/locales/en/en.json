@@ -1,0 +1,68 @@
+{
+    "Inicio": "Home",
+    "Sobre": "About",
+    "Habilidades": "Skills",
+    "Serviços": "Services",
+    "Projetos": "Projects",
+    "Contato": "Contact",
+
+
+    "Your browser does not support the audio element.": "Your browser does not support the audio element.",
+    "EN": "EN",
+    "PT": "PT",
+    "Hello, I'm Yasmim!": "Hello, I'm Yasmim!",
+    "I'm a web developer and S.I. student.": "I'm a web developer and S.I. student.",
+    "Welcome to my portfolio!": "Welcome to my portfolio!",
+    "Load CV": "Load CV",
+
+
+    "My Image": "My Image",
+    "About Me": "About Me",
+    "About me": "About me",
+    "Personal Presentation": "Personal Presentation",
+    "My name is Yasmim, but you can call me Yas!": "My name is Yasmim, but you can call me Yas!",
+    "I am 22 years old, born in Bahia, born in the city of Salvador, but residing in Feira de Santana, the princess of the Bahia hinterland!": "I am 22 years old, born in Bahia, born in the city of Salvador, but residing in Feira de Santana, the princess of the Bahia hinterland!",
+    "I am a web programmer and freelance developer. I love creating beautiful, responsive websites with great user experience, however, I also have a strong interest in backend development.": "I am a web programmer and freelance developer. I love creating beautiful, responsive websites with great user experience, however, I also have a strong interest in backend development.",
+    "Undergraduate student in Information Systems at IFBA and graduated in Systems Development Technician by Senai/BA.": "Undergraduate student in Information Systems at IFBA and graduated in Systems Development Technician by Senai/BA.",
+    "Passion for technology and the significant transformations it can promote. Below are some skills and web projects I have done.": "Passion for technology and the significant transformations it can promote. Below are some skills and web projects I have done.",
+
+    
+    "Conhecimentos Técnicos": "Technical Skills",
+    "HTML5": "HTML5",
+    "CSS3": "CSS3",
+    "Tailwind": "Tailwind",
+    "ReactJs": "ReactJs",
+    "Laravel": "Laravel",
+    "Bootstrap": "Bootstrap",
+    "JavaScript": "JavaScript",
+    "Python": "Python",
+    "Java": "Java",
+    "Php": "Php",
+    "MySQL": "MySQL",
+    "Git": "Git",
+    "Figma": "Figma",
+    "Vscode": "Vscode",
+
+    "Serviços Autonomos" : "Autonomous Services",
+    "Sites" : "Websites",
+    "Landing Page" : "Landing Page",
+    "Ofereço serviços de qualidade de desenvolvimento de sites e landing page pra quem deseja aumentar a presença online do seu negócio ou marca com muito mais personalidade e resultados. Vem mudar o futuro da seu negócio também! " : "I offer quality website and landing page development services for those who want to increase the online presence of their business or brand with much more personality and results. Come change the future of your business too!",
+    "Contratar" : "Hire",
+
+
+    "E ai, ficou interessado? Entre em contato e vamos conversar!" : "So, are you interested? Get in touch and let's talk!",
+    "Nome" : "Name",
+    "Telefone" : "Telephone",
+    "Email" : "Email",
+    "Mensagem" : "Message",
+    "Enviar" : "Send",
+    "WhatsApp" : "WhatsApp",
+    "Linkedin" : "Linkedin",
+    "GitHub" : "GitHub",
+
+    "Me acompanhe nas redes" : "Follow me on social media",
+    "2024 © Todos os direitos reservados - Yasmim Barros" : "2024 © All rights reserved - Yasmim Barros",
+    "Site carinhosamente desenvolvido por mim ♡" : "Website lovingly developed by me ♡"
+
+
+}
