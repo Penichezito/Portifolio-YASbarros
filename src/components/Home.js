@@ -51,42 +51,46 @@ export default function Home(){
 
 
     return(
-        <div id="home" className=" dark:bg-black dark:text-slate-300 font-plus text-slate-800 relative grid justify-items-stretch "> 
-            <div className=" my-20 mx-8 md:flex-row flex-col-reverse flex justify-between">
-                <div className=" flex flex-col gap-10 ">
-                    <button onClick={toggleAudio}>
-                        {playing ? <img src={gif}></img> : <img src={sound}></img>}
+        <div id="home" className=" dark:bg-black dark:text-slate-300 font-plus text-slate-800 relative grid justify-items-stretch mt-16"> 
+            <div className=" md:mt-20 mt-8 mx-8 md:flex-row flex-col flex justify-between">
+                <div className=" flex md:flex-col flex-row md:gap-10  gap-5 items-center md:justify-start justify-center">
+                    <button onClick={toggleAudio} className="w-10 h-8 md:w-16 md:h-16">
+                        {playing ? <img  src={gif}></img> : <img src={sound}></img>}
                     </button>
                     <audio className="hidden" ref={audioRef} controls>
                         <source src={audio2} type="audio/mp3" />
                         {t("Your browser does not support the audio element.")}
                     </audio>
 
-                    <button className="shadow-lg dark:shadow-slate-600 shadow-slate-400 hover:shadow-inner rounded-full px-2 py-10 dark:hover:shadow-slate-700" onClick={() => changeLanguage(i18n.language === 'en' ? 'pt' : 'en')}>
+                    <button className="shadow-lg border dark:border-gray-900 dark:shadow-slate-700 shadow-gray-200 hover:shadow-inner rounded-full w-16 h-7 md:w-12 md:h-28 dark:hover:shadow-slate-700 text-sm md:text-lg" onClick={() => changeLanguage(i18n.language === 'en' ? 'pt' : 'en')}>
                         {i18n.language === 'en' ? 'PT' : 'EN'}
                     </button>
 
 
 
-                    <button className="shadow-lg dark:shadow-slate-600 shadow-slate-400 hover:shadow-inner  dark:hover:shadow-slate-700 rounded-full px-3 py-10" onClick={handleThemeSwitch} >
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+                    <button className="shadow-lg border dark:border-gray-900 dark:shadow-slate-700 shadow-gray-200 hover:shadow-inner  dark:hover:shadow-gray-700 rounded-full w-16 h-7 md:w-12 md:h-28 flex justify-center items-center" onClick={handleThemeSwitch} >
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 md:w-6 md:h-6">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
                         </svg>
                     </button>
                 </div>
 
-                <div className="my-36 ml-24">
-                    <h1 className=" bg-clip-text text-transparent bg-gradient-to-r dark:from-white  from-black to-black dark:to-white animate-pulse font-medium text-6xl mb-4">{t("Hello, I'm Yasmim!")}</h1>
-                    <p className="font-light text-xl mb-2">{t("I'm a web developer and S.I. student.")}</p>
-                    <p className="font-light text-xl mb-8">{t("Welcome to my portfolio!")}</p>
-                    <a href={cv} target="_blank" className=" shadow-slate-300 dark:shadow-slate-400 font-medium shadow-inner-lg hover:shadow-inner-md rounded-full px-10 py-3">{t("Load CV")}</a>
+                <div className="flex flex-col-reverse md:flex-row gap-24">
+                    <div className="md:my-36 mt-[-60px] md:mt-44 mb-0 text-center md:text-left md:ml-24">
+                        <h1 className=" bg-clip-text text-transparent bg-gradient-to-r dark:from-white  from-black to-black dark:to-white animate-pulse font-medium text-4xl md:text-5xl mb-3">{t("Desenvolvedora Web")}</h1>
+                        <p className="font-semibold text-gray-500 text-base md:text-xl">{t("I'm a web developer and S.I. student.")}</p>
+                        <p className="font-semibold text-gray-500 text-base md:text-xl mb-7">{t("Welcome to my portfolio!")}</p>
+                        <a href={cv} target="_blank" className=" shadow-slate-300 dark:shadow-slate-400 font-semibold text-gray-600 shadow-inner-lg hover:shadow-inner-md rounded-full px-10 py-3">{t("Load CV")}</a>
+                    </div>
+
+                    <div className=" mt-12 md:mt-2 grid justify-items-center">
+                        <img className="md:w-[27rem] md:h-[30rem] w-[16rem] h-[18rem] md:mr-10" src={cartoon}></img>
+                    </div>
                 </div>
 
-                <div className="">
-                    <img className=" w-[27rem] h-[30rem] mr-10 " src={cartoon}></img>
-                </div>
+                
 
-                <div className="flex flex-col my-32 fill-current dark:text-white">
+                <div className="flex md:flex-col md:my-32 mt-10 mb-24 fill-current dark:text-white items-center justify-center gap-6">
                     <div className="mb-8 ">
                         <div className="" >
                             <svg width="40" height="40" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -115,7 +119,7 @@ export default function Home(){
                         </div>
                     </div>
 
-                    <div className="mb-4">
+                    <div className="mb-4 md:block hidden">
                         <div className="mx-4  bottom-0 left-0 w-[3px] h-64 bg-gradient-to-t from-transparent to-black dark:to-slate-300">
                         </div>
                     </div>

@@ -11,6 +11,7 @@ import React, { useTransition } from 'react';
 import { UseTranslation } from 'react-i18next';
 import i18n from './i18n/i18n';
 import { useEffect, useState } from 'react';
+import Menu from './components/Menu';
 
 function App() {
   const {t, i18n}= useTransition();
