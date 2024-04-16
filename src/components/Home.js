@@ -58,7 +58,7 @@ export default function Home(){
                         {playing ? <img  src={gif}></img> : <img src={sound}></img>}
                     </button>
                     <audio className="hidden" ref={audioRef} controls>
-                        <source src={audio2} type="audio/mp3" />
+                        <source src={audio1} type="audio/mp3" />
                         {t("Your browser does not support the audio element.")}
                     </audio>
 
