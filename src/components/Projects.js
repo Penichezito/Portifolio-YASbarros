@@ -8,7 +8,7 @@ import js from '../icons/js.png';
 export default function Projects(){
 
     return(
-        <div id="projects" className=" dark:bg-black  dark:text-slate-300 container mx-auto px-5 grid justify-items-center text-center mt-10 mb-14 font-plus gap-40">
+        <div id="projects" className=" dark:bg-black  dark:text-slate-300 container mx-auto px-5 grid justify-items-center text-center mt-10 mb-14 font-plus md:gap-40 gap-20">
 
             <div className="mt-5">
                 <div className="">
@@ -81,7 +81,7 @@ export default function Projects(){
             <div className='flex flex-col md:flex-row-reverse gap-9'>
                 <div className="relative shadow-2xl">
                     <div className="absolute bg-black h-full top-0 left-0 w-full bg-opacity-60 "></div>
-                    <img className="shadow-lg h-[20rem] w-[30rem]" src={agencia}></img>
+                    <img className="shadow-lg md:h-[20rem] w-[30rem] h-[17rem]" src={agencia}></img>
                 </div>
                 <div className="text-right place-content-end">
                     <h1 className="text-3xl font-medium mb-5">Agencia de Marketing</h1>

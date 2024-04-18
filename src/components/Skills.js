@@ -20,7 +20,7 @@ export default function Skills(){
     const { t } = useTranslation();
 
     return(
-        <div id="skills" className="overflow-hidden relative font-plus py-12 grid justify-items-center text-center bg-gray-950 gap-8">
+        <div id="skills" className="overflow-hidden relative font-plus py-12 px-4 grid justify-items-center text-center bg-gray-950 gap-8">
             {/* <div className="absolute  blur-[90px] bottom-[200px] left-[-150px] right-[70rem] top-[-200px] opacity-15 rounded-full bg-purple-700 w-[15rem] h-[15rem]"></div>
             <div className="absolute  blur-[90px] left-[60rem] rigth-0 bottom-0 top-[25rem] opacity-15 rounded-full bg-indigo-400 w-[15rem] h-[15rem]"></div> */}
 
