@@ -19,12 +19,12 @@ export default function Services(){
                 {t("Ofereço serviços de qualidade de desenvolvimento de sites e landing page pra quem deseja aumentar a presença online do seu negócio ou marca com muito mais personalidade e resultados. Vem mudar o futuro da seu negócio também! ")}</p>
             </div>
             <div className="flex flex-col md:flex-row items-center mt-20 gap-20 mb-24 px-2">
-                <div className="bg-overlay bg-opacity-40  shadow-overlay shadow-inner-lg border-4 border-overlay md:w-[27rem] md:h-[35rem] w-[23rem] h-[25rem] rounded-3xl place-content-center grid justify-items-center">
+                <div className="bg-overlay bg-opacity-40  shadow-overlay shadow-inner-lg border-4 border-overlay md:w-[27rem] md:h-[35rem] w-[19rem] h-[25rem] rounded-3xl place-content-center grid justify-items-center">
                      <img className="md:size-32 size-24" src={laptop}></img>
                     <h1 className="mt-10 font-bold text-white text-xl md:text-2xl">{t("Sites")}</h1>
                     <button className="bg-mindaro font-bold  mt-10 rounded-full px-8 py-2 md:px-14 md:py-4 text-black hover:bg-overlay transition duration-500 hover:text-white" >{t("Contratar")}</button>
                 </div>
-                <div className="bg-overlay bg-opacity-40 shadow-overlay shadow-inner-lg  md:w-[27rem] md:h-[35rem] w-[23rem] h-[25rem] rounded-3xl place-content-center grid justify-items-center">
+                <div className="bg-overlay bg-opacity-40 shadow-overlay shadow-inner-lg  md:w-[27rem] md:h-[35rem] w-[19rem] h-[25rem] rounded-3xl place-content-center grid justify-items-center">
                     <img className="md:size-32 size-20" src={web}></img> 
                     <h1 className="mt-14 font-bold text-white  text-xl md:text-2xl">{t("Landing Pages")}</h1>
                     <button className=" bg-mindaro mt-10 font-bold rounded-full px-8 py-2 md:px-14 md:py-4 text-black hover:bg-overlay transition duration-500 hover:text-white" >{t("Contratar")}</button>

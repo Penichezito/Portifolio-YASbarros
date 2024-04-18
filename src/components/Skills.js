@@ -15,12 +15,9 @@ import vscode from '../icons/vscode.png'
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 
-
-
 export default function Skills(){
 
     const { t } = useTranslation();
-
 
     return(
         <div id="skills" className="overflow-hidden relative font-plus py-12 grid justify-items-center text-center bg-gray-950 gap-8">
@@ -36,96 +33,128 @@ export default function Skills(){
             </div>
             <div className="flex flex-col mb-5">
                 <div className="grid justify-items-center gap-8">
-                    <div className="flex flex-row gap-8">
-                        <div className="flex flex-col">
-                            <div className="rounded-full px-12 py-3 bg-white bg-opacity-5 shadow shadow-slate-900">
-                                <img className=" w-15 h-14 " src={html5}></img>
+                    <div className="flex md:flex-row flex-col gap-8">
+                        <div className="flex flex-row gap-8">
+                            <div id='icon_html' className="flex flex-col">
+                                <div className=" flex items-center justify-center rounded-full w-40 h-20 bg-white bg-opacity-5 shadow shadow-slate-900">
+                                    <img className=" w-15 h-14 " src={html5}></img>
+                                </div>
+                                <p className="text-slate-400">{t("HTML5")}</p>
                             </div>
-                            <p className="text-slate-400">{t("HTML5")}</p>
-                        </div>
-                        <div className="flex flex-col">
-                            <div className="rounded-full px-12 py-3 bg-white bg-opacity-5 shadow shadow-slate-900">
-                                <img className=" w-15 h-14 " src={css3}></img>
+                            <div id='icon_css' className="flex flex-col">
+                                <div className="flex items-center justify-center rounded-full w-40 h-20 bg-white bg-opacity-5 shadow shadow-slate-900">
+                                    <img className=" w-15 h-14 " src={css3}></img>
+                                </div>
+                                <p className="text-slate-400">{t("CSS3")}</p>
                             </div>
-                            <p className="text-slate-400">{t("CSS3")}</p>
-                        </div>
-                        <div className="flex flex-col">
-                            <div className="rounded-full px-9 py-4 bg-white bg-opacity-5 shadow shadow-slate-900">
-                                <img className=" w-15 h-12 " src={tailwind}></img>
+                        </div>  
+
+                        <div className="flex flex-row gap-8">
+                            <div id='icon_tailwind' className="flex flex-col">
+                                <div className="flex items-center justify-center rounded-full w-40 h-20 bg-white bg-opacity-5 shadow shadow-slate-900">
+                                    <img className=" w-15 h-12 " src={tailwind}></img>
+                                </div>
+                                <p className="text-slate-400">{t("Tailwind")}</p>
                             </div>
-                            <p className="text-slate-400">{t("Tailwind")}</p>
-                        </div>
-                        <div className="flex flex-col">
-                            <div className="rounded-full px-12 py-3 bg-white bg-opacity-5 shadow shadow-slate-900">
-                                <img className=" w-15 h-14 " src={react}></img>
+                            <div id='icon_react' className="flex flex-col">
+                                <div className="flex items-center justify-center rounded-full w-40 h-20 bg-white bg-opacity-5 shadow shadow-slate-900">
+                                    <img className=" w-15 h-14 p-0" src={react}></img>
+                                </div>
+                                <p className="text-slate-400">{t("ReactJs")}</p>
                             </div>
-                            <p className="text-slate-400">{t("ReactJs")}</p>
                         </div>
-                        <div className="flex flex-col">
-                            <div className="rounded-full px-12 py-3 bg-white bg-opacity-5 shadow shadow-slate-900">
-                                <img className=" w-15 h-14 " src={laravel}></img>
+
+                        <div className="flex flex-row gap-8">
+                            <div id='icon_laravel' className="flex flex-col">
+                                <div className="flex items-center justify-center rounded-full w-40 h-20 bg-white bg-opacity-5 shadow shadow-slate-900">
+                                    <img className=" w-15 h-14 " src={laravel}></img>
+                                </div>
+                                <p className="text-slate-400">{t("Laravel")}</p>
                             </div>
-                            <p className="text-slate-400">{t("Laravel")}</p>
-                        </div>
-                        <div className="flex flex-col">
-                            <div className="rounded-full px-12 py-3 bg-white bg-opacity-5 shadow shadow-slate-900">
-                                <img className=" w-15 h-14 " src={bootstrap}></img>
+                            <div id='icon_bootstrap' className="flex flex-col">
+                                <div className="flex items-center justify-center rounded-full w-40 h-20 bg-white bg-opacity-5 shadow shadow-slate-900">
+                                    <img className=" w-15 h-14 " src={bootstrap}></img>
+                                </div>
+                                <p className="text-slate-400">{t("Bootstrap")}</p>
                             </div>
-                            <p className="text-slate-400">{t("Bootstrap")}</p>
                         </div>
+                        
+                        
+                        
                     </div>
-                    <div className="flex flex-row gap-8">
-                        <div className="flex flex-col">
-                            <div className="rounded-full px-12 py-3 bg-white bg-opacity-5 shadow shadow-slate-900">
-                                <img className=" w-15 h-14 " src={js}></img>
+                    <div className="flex md:flex-row flex-col gap-8">
+
+                        <div className="flex flex-row gap-8">
+                            <div id='icon_javaScript' className="flex flex-col">
+                                <div className="flex items-center justify-center rounded-full w-40 h-20 bg-white bg-opacity-5 shadow shadow-slate-900">
+                                    <img className=" w-15 h-14 " src={js}></img>
+                                </div>
+                                <p className="text-slate-400">{t("JavaScript")}</p>
                             </div>
-                            <p className="text-slate-400">{t("JavaScript")}</p>
-                        </div>
-                        <div className="flex flex-col">
-                            <div className="rounded-full px-12 py-3 bg-white bg-opacity-5 shadow shadow-slate-900">
-                                <img className=" w-15 h-14 " src={python}></img>
+                            <div id='icon_python' className="flex flex-col">
+                                <div className="flex items-center justify-center rounded-full w-40 h-20 bg-white bg-opacity-5 shadow shadow-slate-900">
+                                    <img className=" w-15 h-14 " src={python}></img>
+                                </div>
+                                <p className="text-slate-400">{t("Python")}</p>
                             </div>
-                            <p className="text-slate-400">{t("Python")}</p>
                         </div>
-                        <div className="flex flex-col">
-                            <div className="rounded-full px-14 py-3 bg-white bg-opacity-5 shadow shadow-slate-900">
-                                <img className=" w-15 h-14 " src={java}></img>
+
+                        <div className="flex flex-row gap-8">
+                            <div id='icon_java' className="flex flex-col">
+                                <div className="flex items-center justify-center rounded-full w-40 h-20 bg-white bg-opacity-5 shadow shadow-slate-900">
+                                    <img className=" w-15 h-14 " src={java}></img>
+                                </div>
+                                <p className="text-slate-400">{t("Java")}</p>
                             </div>
-                            <p className="text-slate-400">{t("Java")}</p>
-                        </div>
-                        <div className="flex flex-col">
-                            <div className="rounded-full px-7 py-3 bg-white bg-opacity-5 shadow shadow-slate-900">
-                                <img className=" w-15 h-14 " src={php}></img>
+                            <div id='icon_php' className="flex flex-col">
+                                <div className="flex items-center justify-center rounded-full w-40 h-20 bg-white bg-opacity-5 shadow shadow-slate-900">
+                                    <img className=" w-15 h-14 " src={php}></img>
+                                </div>
+                                <p className="text-slate-400">{t("Php")}</p>
                             </div>
-                            <p className="text-slate-400">{t("Php")}</p>
                         </div>
-                        <div className="flex flex-col">
-                                <div className="rounded-full px-12 py-3 bg-white bg-opacity-5 shadow shadow-slate-900">
+
+
+                        <div id='icon_mysql' className="flex flex-col hidden md:block">
+                                <div className="flex items-center justify-center rounded-full w-40 h-20 bg-white bg-opacity-5 shadow shadow-slate-900">
                                     <img className=" w-15 h-14 " src={mysql}></img>
                                 </div>
                             <p className="text-slate-400">{t("MySQL")}</p>
                         </div>
                     </div>
-                    <div className="flex flex-row gap-8">
+                    <div className="flex md:flex-row flex-col gap-8">
+
+                        <div className="flex flex-row gap-8">
+                            <div id='icon_mysql' className="flex flex-col md:hidden">
+                                <div className="flex items-center justify-center rounded-full w-40 h-20 bg-white bg-opacity-5 shadow shadow-slate-900">
+                                    <img className=" w-15 h-14 " src={mysql}></img>
+                                </div>
+                                <p className="text-slate-400">{t("MySQL")}</p>
+                            </div>
+                            <div id='icon_git' className="flex flex-col">
+                                <div className="flex items-center justify-center rounded-full w-40 h-20 bg-white bg-opacity-5 shadow shadow-slate-900">
+                                    <img className=" w-15 h-14 " src={git}></img>
+                                </div>
+                                <p className="text-slate-400">{t("Gi")}t</p>
+                            </div>
+                        </div>
                         
-                        <div className="flex flex-col">
-                            <div className="rounded-full px-12 py-3 bg-white bg-opacity-5 shadow shadow-slate-900">
-                                <img className=" w-15 h-14 " src={git}></img>
+                        <div className="flex flex-row gap-8">
+                            <div id='icon_figma' className="flex flex-col">
+                                <div className="flex items-center justify-center rounded-full w-40 h-20 bg-white bg-opacity-5 shadow shadow-slate-900">
+                                    <img className=" w-15 h-14 " src={figma}></img>
+                                </div>
+                                <p className="text-slate-400">{t("Figma")}</p>
                             </div>
-                            <p className="text-slate-400">{t("Gi")}t</p>
-                        </div>
-                        <div className="flex flex-col">
-                            <div className="rounded-full px-12 py-3 bg-white bg-opacity-5 shadow shadow-slate-900">
-                                <img className=" w-15 h-14 " src={figma}></img>
+                            <div id='icon_vscode'className="flex flex-col">
+                                <div className="flex items-center justify-center rounded-full w-40 h-20 bg-white bg-opacity-5 shadow shadow-slate-900">
+                                    <img className=" w-15 h-14 " src={vscode}></img>
+                                </div>
+                                <p className="text-slate-400">{t("Vscode")}</p>
                             </div>
-                            <p className="text-slate-400">{t("Figma")}</p>
                         </div>
-                        <div className="flex flex-col">
-                            <div className="rounded-full px-12 py-3 bg-white bg-opacity-5 shadow shadow-slate-900">
-                                <img className=" w-15 h-14 " src={vscode}></img>
-                            </div>
-                            <p className="text-slate-400">{t("Vscode")}</p>
-                        </div>
+                        
+                        
                     </div>
                 </div>
                 
