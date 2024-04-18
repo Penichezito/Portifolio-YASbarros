@@ -44,13 +44,13 @@ export default function NavBar() {
         
         <ul
           className={`${
-            open ? 'fixed h-screen top-0 right-0 block bg-white' : 'hidden'
-          } md:flex gap-3 md:gap-0 md:items-center md:mr-8`}
+            open ? 'fixed h-screen top-0 right-0 block w-72 bg-white' : 'hidden'
+          } md:flex gap-8 md:gap-1 md:items-center md:mr-8 ml-5 text-center`}
         >
-          <div className="w-full flex justify-end">
+          <div className="w-full flex justify-start p-8">
             <button onClick={toggleMenu} className='md:hidden'>
             <svg
-                className="h-6 w-6 text-gray-600"
+                className="h-7 w-7 text-gray-600"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -66,15 +66,15 @@ export default function NavBar() {
           </div>
 
 
-          <li>
+          <li className="mb-12 md:mb-0 mt-10 md:mt-0">
             <a
               href="#home"
-              className="shadow-inner-lg dark:shadow-slate-400 hover:shadow-inner-md rounded-full px-8 py-4"
+              className="md:shadow-inner-lg dark:shadow-slate-400 hover:shadow-inner-lg rounded-full px-8 py-4"
             >
               {t('Inicio')}
             </a>
           </li>
-          <li>
+          <li className="mb-12 md:mb-0">
             <a
               href="#about"
               className="hover:shadow-inner-lg px-8 py-4 hover:rounded-full hover:border-slate-300"
@@ -82,7 +82,7 @@ export default function NavBar() {
               {t('Sobre')}
             </a>
           </li>
-          <li>
+          <li className="mb-12 md:mb-0">
             <a
               href="#skills"
               className="hover:shadow-inner-lg px-8 py-4 hover:rounded-full hover:border-slate-300"
@@ -90,7 +90,7 @@ export default function NavBar() {
               {t('Habilidades')}
             </a>
           </li>
-          <li>
+          <li className="mb-12 md:mb-0">
             <a
               href="#services"
               className="hover:shadow-inner-lg px-8 py-4 hover:rounded-full hover:border-slate-300"
@@ -98,7 +98,7 @@ export default function NavBar() {
               {t('Serviços')}
             </a>
           </li>
-          <li>
+          <li className="mb-12 md:mb-0">
             <a
               href="#projects"
               className="hover:shadow-inner-lg px-8 py-4 hover:rounded-full hover:border-slate-300"
@@ -106,7 +106,7 @@ export default function NavBar() {
               {t('Projetos')}
             </a>
           </li>
-          <li>
+          <li className="mb-12 md:mb-0">
             <a
               href="#contact"
               className="hover:shadow-inner-lg px-8 py-4 hover:rounded-full hover:border-slate-300"

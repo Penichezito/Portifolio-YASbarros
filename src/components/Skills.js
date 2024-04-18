@@ -115,7 +115,7 @@ export default function Skills(){
                         </div>
 
 
-                        <div id='icon_mysql' className="flex flex-col hidden md:block">
+                        <div id='icon_mysql' className="flex-col hidden md:block">
                                 <div className="flex items-center justify-center rounded-full w-40 h-20 bg-white bg-opacity-5 shadow shadow-slate-900">
                                     <img className=" w-15 h-14 " src={mysql}></img>
                                 </div>
