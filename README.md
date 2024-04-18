@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Portfólio de Yasmim Barros
+## Visão Geral
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é o meu portfólio pessoal, onde compartilho informações sobre mim, meus projetos e minhas habilidades. Este repositório serve como uma vitrine para meus trabalhos e como um ponto de referência para potenciais colaboradores, empregadores e outros interessados.
 
-## Available Scripts
+## Conteúdo
 
-In the project directory, you can run:
+- **Sobre Mim**: Uma breve introdução sobre quem eu sou, minha formação, interesses e objetivos.
+- **Projetos**: Uma lista dos projetos que desenvolvi, incluindo uma breve descrição de cada um, tecnologias utilizadas e links para seus repositórios ou sites.
+- **Habilidades**: Uma lista das minhas habilidades técnicas e não técnicas relevantes para o meu campo de atuação.
+- **Contato**: Informações de contato para aqueles que desejam entrar em contato comigo para oportunidades de colaboração, emprego ou outras consultas.
 
-### `npm start`
+## Sobre Mim
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Sou [Seu Nome], um [breve resumo sobre você]. Tenho experiência em [áreas relevantes], e estou constantemente buscando aprender e melhorar minhas habilidades.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Projetos
 
-### `npm test`
+Aqui estão alguns dos projetos em destaque:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Sistemas para Imobiliária**
+   - Descrição: Projeto fullstack para corretoras de imóveis que desenvolvi para conclusão da diciplina de programação web.
+   - Tecnologias: HTML, Tailwind, JavaScript, React.js, PHP, MySQL e Laravel.
+   - [Link para o repositório/site do projeto]
 
-### `npm run build`
+2. **Crud Laravel**
+   - Descrição: Projeto desenvolvido para pratica e estudos com laravel.
+   - Tecnologias: HTML, Tailwind, Laravel e JavaScript.
+   - [Link para o repositório/site do projeto]
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Agência Digital**
+   - Descrição: Landing page para agencia de marketing digital desenvolvida para estudos.
+   - Tecnologias: HTML, CSS, Bootstrap e JavaScript.
+   - [Link para o repositório/site do projeto]
+     
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Habilidades
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Linguagens de Programação: JavaScript, Python, Java, Php e MySQL.
+- Tecnologias Web: HTML, CSS, React.js, Tailwind e Laravel.
+- Ferramentas de Desenvolvimento: Git, VSCode e NetBeans.
 
-### `npm run eject`
+## Contato
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Email: barrosyasmim13@gmail.com
+- LinkedIn: https://www.linkedin.com/in/yasmim-barros-8b1491200/
+- Website: https://yasbarros.vercel.app
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Sinta-se à vontade para entrar em contato comigo para discutir oportunidades de colaboração ou simplesmente para dizer olá!
