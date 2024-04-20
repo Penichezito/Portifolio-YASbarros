@@ -8,14 +8,14 @@ import js from '../icons/js.png';
 export default function Projects(){
 
     return(
-        <div id="projects" className=" dark:bg-black  dark:text-slate-300 container mx-auto px-5 grid justify-items-center text-center mt-10 mb-14 font-plus md:gap-40 gap-20">
+        <div id="projects" className=" dark:bg-gray-950  dark:text-slate-300 container mx-auto px-5 grid justify-items-center text-center mt-10 mb-14 font-plus md:gap-40 gap-20">
 
-            <div className="mt-5">
+            <div className="mt-5 mb-10 md:mb-2">
                 <div className="">
-                    <h1 className="text-3xl mb-2  dark:text-white text-slate-700">Projetos</h1>
-                    <div class="h-[3px] ml-5 w-28 bg-gradient-to-l from-transparent via-roxo to-roxo"></div>
+                    <h1 className="text-4xl md:text-3xl mb-2 dark:text-white text-slate-700">Projetos</h1>
+                    <div class="h-[3px] md:ml-6 md:w-32 ml-1 w-32 bg-gradient-to-l from-transparent via-roxo to-roxo"></div>
                 </div>
-                <p className="mt-3 text-slate-400">Praticas & trabalhos</p>
+                <p className="mt-3 text-slate-500 text-sm md:text-lg">Praticas & trabalhos</p>
             </div>
             
             <div className='flex flex-col md:flex-row gap-9 mt-[-60px]'>

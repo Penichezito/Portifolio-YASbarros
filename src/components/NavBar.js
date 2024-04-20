@@ -10,7 +10,7 @@ export default function NavBar() {
   };
 
   return (
-      <nav className={` dark:bg-black dark:text-slate-300 bg-white z-50 fixed top-0 flex justify-between py-6 text-lg font-mono font-plus text-slate-800 mb-14 w-full`}>
+      <nav className={` dark:bg-gray-950 dark:text-slate-300 bg-white z-50 fixed top-0 flex justify-between py-6 text-lg font-mono font-plus text-slate-800 mb-14 w-full`}>
         <a href="#home" className="ml-8">
           <span>
             <h1 className="md:text-3xl text-2xl font-medium font-logo">YASCODER</h1>
@@ -44,7 +44,7 @@ export default function NavBar() {
         
         <ul
           className={`${
-            open ? 'fixed h-screen top-0 right-0 block w-72 bg-white' : 'hidden'
+            open ? 'fixed h-full top-0 right-0 block w-72 bg-white' : 'hidden'
           } md:flex gap-8 md:gap-1 md:items-center md:mr-8 ml-5 text-center`}
         >
           <div className="w-full flex justify-start p-8">
