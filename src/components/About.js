@@ -21,7 +21,7 @@ export default function About() {
 
             <div className="md:flex-row flex flex-col items-center ">
                 <div className="relative flex justify-center md:mx-20">
-                    <div className=" absolute z-0 left-20 top-7 bg-red-300 shadow-lg w-[20rem] h-[27rem] rounded-[10px]"></div>
+                    {/* <div className=" absolute z-0 left-20 top-7 bg-red-300 shadow-lg w-[20rem] h-[27rem] rounded-[10px]"></div> */}
                         <img className="shadow-lg rounded-[10px] z-10 md:w-[50rem] md:h-[32rem] w-[20rem] h-[27rem]" src={eu} alt={t('My Image')} />
                     
                 </div>
