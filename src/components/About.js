@@ -6,7 +6,7 @@ export default function About() {
     const { t } = useTranslation();
 
     return (
-        <div id="about" className="flex-col container mx-auto dark:bg-gray-950 dark:text-slate-300 flex  text-slate-800 font-plus mb-10">
+        <div id="about" className="relative flex-col container mx-auto dark:bg-gray-950 dark:text-slate-300 flex text-slate-800 font-plus mb-10">
 
             <div>
                 <div className="text-center flex flex-col  items-center mb-6">
@@ -16,19 +16,23 @@ export default function About() {
                 </div>
             </div>
 
-
+            <div className="">
+                <div className="absolute blur-3xl top-14 bg-gradient-to-t from-azul to-purpleLigth opacity-25 rounded-full w-[30rem] h-[30rem]"></div>
+                <div className="absolute blur-3xl top-[15rem] left-[70rem] bg-gradient-to-b from-azul to-purpleLigth opacity-20 rounded-full w-[25rem] h-[25rem] "></div>
+            </div>
             
 
-            <div className="md:flex-row flex flex-col items-center ">
+        
+            <div className="z-10 md:flex-row flex flex-col items-center ">
                 <div className="relative flex justify-center md:mx-20">
                     {/* <div className=" absolute z-0 left-20 top-7 bg-red-300 shadow-lg w-[20rem] h-[27rem] rounded-[10px]"></div> */}
-                        <img className="shadow-lg rounded-[10px] z-10 md:w-[50rem] md:h-[32rem] w-[20rem] h-[27rem]" src={eu} alt={t('My Image')} />
+                        <img className="shadow-lg rounded-[10px] z-10 md:w-[55rem] md:h-[32rem] w-[20rem] h-[27rem]" src={eu} alt={t('My Image')} />
                     
                 </div>
 
                 <div className="leading-6 text-justify font-medium p-6 mt-10">
                     <p className="font-medium ">
-                        <span className="text-xl font-semibold text-slate-600">{t('Hello, my name is Yasmim Barros!')}</span>
+                        <span className="text-xl font-semibold text-slate-700 dark:text-slate-300">{t('Hello, my name is Yasmim Barros!')}</span>
                         <br/>
                         <br/>
                         {t('I am 22 years old, born in Bahia, born in the city of Salvador, but residing in Feira de Santana, the princess of the Bahia hinterland!')} <br /> <br /> 

@@ -20,12 +20,12 @@ function App() {
   }
 
   return (
-    <div className="App dark:bg-gray-950">
+    <div className="App dark:bg-gray-950 overflow-hidden">
       <NavBar/>
       <Home/>
       <About/>
       <Skills/>
-      <Services/>
+      <Projects/>
       <Services/>
       <Contact/>
       <Footer/>

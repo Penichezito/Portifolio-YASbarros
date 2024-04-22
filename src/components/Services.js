@@ -8,7 +8,7 @@ export default function Services(){
     const { t } = useTranslation();
 
     return(
-        <div id="services" className=" font-plus overflow-hidden mt-36 bg-slate-900 text-center grid justify-items-center">
+        <div id="services" className="font-plus overflow-hidden mt-36 bg-slate-900 text-center grid justify-items-center">
             {/* <div className="absolute  blur-[90px] top-3em] opacity-15 rounded-full bg-purpleLigth w-[65rem] h-[45rem]"></div> */}
             <div className="grid justify-items-center">
                 <div className="mt-20">

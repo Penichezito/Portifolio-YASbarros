@@ -13,7 +13,7 @@ export default function Projects(){
 
     return(
      
-        <div id="projects" className=" dark:bg-gray-950  dark:text-slate-300 container mx-auto px-5 grid justify-items-center text-center mt-10 mb-14 font-plus md:gap-40 gap-20">
+        <div id="projects" className="relative dark:bg-gray-950  dark:text-slate-300 container mx-auto px-5 grid justify-items-center text-center mt-10 mb-14 font-plus md:gap-40 gap-20">
 
             <div className="mt-5 mb-10 md:mb-2">
                 <div className="">
@@ -22,8 +22,13 @@ export default function Projects(){
                 </div>
                 <p className="mt-3 text-slate-500 text-sm md:text-lg">Praticas & trabalhos</p>
             </div>
+
+            <div className="absolute blur-3xl top-[5rem] left-[0rem] bg-gradient-to-b from-azul to-purpleLigth opacity-20 rounded-full w-[25rem] h-[25rem] "></div>
+            <div className="absolute blur-3xl top-[37rem] left-[70rem] bg-gradient-to-b from-azul to-purpleLigth opacity-20 rounded-full w-[25rem] h-[25rem] "></div>
+            <div className="absolute blur-3xl top-[67rem] left-[0rem] bg-gradient-to-b from-azul to-purpleLigth opacity-20 rounded-full w-[25rem] h-[25rem] "></div>
+            <div className="absolute blur-3xl top-[105rem] left-[70rem] bg-gradient-to-b from-azul to-purpleLigth opacity-20 rounded-full w-[25rem] h-[25rem] "></div>
             
-            <div className='flex flex-col md:flex-row gap-9 mt-[-60px]'>
+            <div className='z-10 flex flex-col md:flex-row gap-9 mt-[-60px]'>
                 <div className="">
                     <img className="shadow-lg h-[20rem] w-[30rem]" src={sp}></img>
                 </div>
@@ -43,7 +48,7 @@ export default function Projects(){
                 </div>
             </div> 
 
-            <div className='flex flex-col md:flex-row-reverse gap-9'>
+            <div className='z-10 flex flex-col md:flex-row-reverse gap-9'>
                 <div className="">
                     <img className="shadow-lg h-[20rem] w-[30rem]" src={sp}></img>
                 </div>
@@ -63,7 +68,7 @@ export default function Projects(){
                 </div>
             </div> 
 
-            <div className='flex flex-col md:flex-row gap-9'>
+            <div className='z-10 flex flex-col md:flex-row gap-9'>
                 <div className="">
                     <img className="shadow-lg h-[20rem] w-[30rem]" src={sp}></img>
                 </div>
@@ -83,7 +88,7 @@ export default function Projects(){
                 </div>
             </div> 
 
-            <div className='flex flex-col md:flex-row-reverse gap-9'>
+            <div className='z-10 flex flex-col md:flex-row-reverse gap-9'>
                 <div className="relative shadow-2xl">
                     <div className="absolute bg-black h-full top-0 left-0 w-full bg-opacity-60 "></div>
                     <img className="shadow-lg md:h-[20rem] w-[30rem] h-[17rem]" src={agencia}></img>
