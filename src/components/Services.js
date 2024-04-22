@@ -13,7 +13,7 @@ export default function Services(){
             <div className="grid justify-items-center">
                 <div className="mt-20">
                     <h1 className="text-slate-100 text-3xl md:text-4xl mb-4 ml-0">{t("Serviços Autonomos")}</h1>
-                    <div class="h-[3px] w-64 bg-gradient-to-l from-transparent via-roxo to-roxo"></div>
+                    <div className="h-[3px] w-64 bg-gradient-to-l from-transparent via-roxo to-roxo"></div>
                 </div>
                 <p className="text-slate-300 mt-2 md:w-[50rem] p-8 text-base md:text-lg"> 
                 {t("Ofereço serviços de qualidade de desenvolvimento de sites e landing page pra quem deseja aumentar a presença online do seu negócio ou marca com muito mais personalidade e resultados. Vem mudar o futuro da seu negócio também! ")}</p>

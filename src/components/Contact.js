@@ -49,7 +49,7 @@ export default function Contact(){
             
             <div id="title" className="text-center grid justify-items-center md:justify-items-start">
                 <h1 className="mt-4 mb-2 text-3xl md:text-4xl text-slate-700 dark:text-slate-300 ">{t("Contato")}</h1>
-                <div class="h-[3px] w-28 bg-gradient-to-l from-transparent via-roxo to-roxo"></div>
+                <div className="h-[3px] w-28 bg-gradient-to-l from-transparent via-roxo to-roxo"></div>
                 <p className="mt-3 w-72 md:w-auto mb-20 text-sm md:text-lg text-slate-500 dark:text-slate-300">{t("E ai, ficou interessado? Entre em contato e vamos conversar!")}</p>
             </div>
 
@@ -76,8 +76,8 @@ export default function Contact(){
                     <a href="mailto:barrosyasmim13@gmail.com" className=" flex items-center justify-center relative transition duration-500 bg-sky-600  hover:bg-blue-800 rounded-2xl w-72 md:w-80 h-20 md:h-20 shadow-xl text-white">
                         <span className="flex flex-col gap-2 w-40 items-center justify-center">
                             <svg className="" width="27" height="27" viewBox="0 0 53 41" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M48.7222 1.05566H4.27778C2.74365 1.05566 1.5 2.29932 1.5 3.83344V37.1668C1.5 38.7009 2.74365 39.9445 4.27778 39.9445H48.7222C50.2563 39.9445 51.5 38.7009 51.5 37.1668V3.83344C51.5 2.29932 50.2563 1.05566 48.7222 1.05566Z" stroke="white" stroke-width="4" stroke-linecap="round"/>
-                                <path d="M1.5 5.22266L26.5 20.5004L51.5 5.22266" stroke="white" stroke-width="4" stroke-linecap="round"/>
+                                <path d="M48.7222 1.05566H4.27778C2.74365 1.05566 1.5 2.29932 1.5 3.83344V37.1668C1.5 38.7009 2.74365 39.9445 4.27778 39.9445H48.7222C50.2563 39.9445 51.5 38.7009 51.5 37.1668V3.83344C51.5 2.29932 50.2563 1.05566 48.7222 1.05566Z" stroke="white" strokeWidth="4" strokeLinecap="round"/>
+                                <path d="M1.5 5.22266L26.5 20.5004L51.5 5.22266" stroke="white" strokeWidth="4" strokeLinecap="round"/>
                             </svg>
                             <p className="">{t("Email")}</p>
                         </span>
@@ -102,7 +102,7 @@ export default function Contact(){
                     <a target='_blank' href="https://github.com/Yasbarros" className="flex items-center justify-center relative transition duration-500 bg-sky-600  hover:bg-blue-800 rounded-2xl w-72 md:w-80 h-20 md:h-20 shadow-xl text-white">
                         <span className="flex flex-col gap-2  w-40 items-center justify-center ">
                             <svg className="" width="30" height="30" viewBox="0 0 70 69" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M35.029 0.0830078C15.6588 0.0830078 0 15.8573 0 35.3722C0 50.9716 10.0332 64.1761 23.9518 68.8496C25.692 69.2009 26.3294 68.0903 26.3294 67.156C26.3294 66.3379 26.2721 63.5336 26.2721 60.6118C16.5279 62.7155 14.4987 56.4051 14.4987 56.4051C12.9328 52.3153 10.6125 51.2641 10.6125 51.2641C7.42324 49.1023 10.8448 49.1023 10.8448 49.1023C14.3826 49.3361 16.2389 52.7247 16.2389 52.7247C19.3701 58.0994 24.4157 56.5808 26.4456 55.6458C26.7353 53.3671 27.6638 51.7897 28.6497 50.9135C20.878 50.0954 12.7012 47.0574 12.7012 33.5023C12.7012 29.6462 14.0922 26.4913 16.2963 24.0377C15.9485 23.1615 14.7303 19.5384 16.6447 14.6893C16.6447 14.6893 19.6024 13.7543 26.2714 18.3116C29.1266 17.5392 32.0711 17.1462 35.029 17.1429C37.9866 17.1429 41.0017 17.5523 43.7858 18.3116C50.4555 13.7543 53.4132 14.6893 53.4132 14.6893C55.3276 19.5384 54.1087 23.1615 53.7609 24.0377C56.0231 26.4913 57.3568 29.6462 57.3568 33.5023C57.3568 47.0574 49.1799 50.0366 41.3501 50.9135C42.6264 52.0234 43.7278 54.1264 43.7278 57.457C43.7278 62.1892 43.6704 65.9873 43.6704 67.1553C43.6704 68.0903 44.3085 69.2009 46.048 68.8503C59.9667 64.1754 69.9998 50.9716 69.9998 35.3722C70.0572 15.8573 54.341 0.0830078 35.029 0.0830078Z" fill="white"/>
+                                <path fillRule="evenodd" clipRule="evenodd" d="M35.029 0.0830078C15.6588 0.0830078 0 15.8573 0 35.3722C0 50.9716 10.0332 64.1761 23.9518 68.8496C25.692 69.2009 26.3294 68.0903 26.3294 67.156C26.3294 66.3379 26.2721 63.5336 26.2721 60.6118C16.5279 62.7155 14.4987 56.4051 14.4987 56.4051C12.9328 52.3153 10.6125 51.2641 10.6125 51.2641C7.42324 49.1023 10.8448 49.1023 10.8448 49.1023C14.3826 49.3361 16.2389 52.7247 16.2389 52.7247C19.3701 58.0994 24.4157 56.5808 26.4456 55.6458C26.7353 53.3671 27.6638 51.7897 28.6497 50.9135C20.878 50.0954 12.7012 47.0574 12.7012 33.5023C12.7012 29.6462 14.0922 26.4913 16.2963 24.0377C15.9485 23.1615 14.7303 19.5384 16.6447 14.6893C16.6447 14.6893 19.6024 13.7543 26.2714 18.3116C29.1266 17.5392 32.0711 17.1462 35.029 17.1429C37.9866 17.1429 41.0017 17.5523 43.7858 18.3116C50.4555 13.7543 53.4132 14.6893 53.4132 14.6893C55.3276 19.5384 54.1087 23.1615 53.7609 24.0377C56.0231 26.4913 57.3568 29.6462 57.3568 33.5023C57.3568 47.0574 49.1799 50.0366 41.3501 50.9135C42.6264 52.0234 43.7278 54.1264 43.7278 57.457C43.7278 62.1892 43.6704 65.9873 43.6704 67.1553C43.6704 68.0903 44.3085 69.2009 46.048 68.8503C59.9667 64.1754 69.9998 50.9716 69.9998 35.3722C70.0572 15.8573 54.341 0.0830078 35.029 0.0830078Z" fill="white"/>
                             </svg>
                             <p>{t("GitHub")}</p>
                                           

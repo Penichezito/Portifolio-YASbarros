@@ -18,7 +18,7 @@ export default function Projects(){
             <div className="mt-5 mb-10 md:mb-2">
                 <div className="">
                     <h1 className="text-4xl md:text-3xl mb-2 dark:text-white text-slate-700">Projetos</h1>
-                    <div class="h-[3px] md:ml-6 md:w-32 ml-1 w-32 bg-gradient-to-l from-transparent via-roxo to-roxo"></div>
+                    <div className="h-[3px] md:ml-6 md:w-32 ml-1 w-32 bg-gradient-to-l from-transparent via-roxo to-roxo"></div>
                 </div>
                 <p className="mt-3 text-slate-500 text-sm md:text-lg">Praticas & trabalhos</p>
             </div>

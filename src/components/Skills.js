@@ -27,7 +27,7 @@ export default function Skills(){
             <div className="mb-8">
                 <div className="">
                     <h1 className="text-4xl mb-4 ml-0  text-slate-300">{t("Habilidades")}</h1>
-                    <div class="h-[3px] w-40 bg-gradient-to-l from-transparent via-roxo to-roxo"></div>
+                    <div className="h-[3px] w-40 bg-gradient-to-l from-transparent via-roxo to-roxo"></div>
                 </div>
                 <p className="mt-5 text-slate-400">{t("Conhecimentos Técnicos")}</p>
             </div>
