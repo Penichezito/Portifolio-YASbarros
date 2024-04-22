@@ -77,8 +77,8 @@ export default function Home(){
                     </button>
                 </div>
 
-                <div class="absolute flex justify-center items-center top-24 left-28 md:top-44 md:left-[12rem] z-0 md:w-[67rem] md:h-[20rem] w-40 h-96">
-                    <div class="bg-gradient-to-r from-azul to-purpleLigth absolute inset-0 blur-3xl rounded-full opacity-30 transform md:rotate-12 md:origin-center"></div>
+                <div class="absolute flex justify-center items-center top-20 left-28 md:top-44 md:left-[12rem] z-0 md:w-[67rem] md:h-[20rem] w-48 h-96">
+                    <div class="bg-gradient-to-r from-azul to-purpleLigth absolute inset-0 blur-3xl rounded-full opacity-30 md:transform md:rotate-12 md:origin-center"></div>
                 </div> 
 
                 <div className="z-10 flex flex-col-reverse md:flex-row gap-16">
