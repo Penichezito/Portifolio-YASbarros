@@ -46,8 +46,7 @@ export default function Contact(){
     
     return(
         <div id="contact" className="relative dark:bg-gray-950 dark:text-slate-300 container mx-auto my-20 font-plus">
-            <div className="z-0 absolute blur-3xl top-[-5rem] left-[10rem] bg-gradient-to-b from-azul to-purpleLigth opacity-20 rounded-full w-[25rem] h-[10rem] "></div>
-            <div className="z-0 absolute blur-3xl top-[17rem] left-[70rem] bg-gradient-to-b from-azul to-purpleLigth opacity-20 rounded-full w-[25rem] h-[25rem] "></div>
+            
             <div id="title" className="text-center grid justify-items-center md:justify-items-start">
                 <h1 className="mt-4 mb-2 text-3xl md:text-4xl text-slate-700 dark:text-slate-300 ">{t("Contato")}</h1>
                 <div class="h-[3px] w-28 bg-gradient-to-l from-transparent via-roxo to-roxo"></div>

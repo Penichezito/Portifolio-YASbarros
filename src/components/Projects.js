@@ -23,10 +23,10 @@ export default function Projects(){
                 <p className="mt-3 text-slate-500 text-sm md:text-lg">Praticas & trabalhos</p>
             </div>
 
-            <div className="absolute blur-3xl top-[5rem] left-[0rem] bg-gradient-to-b from-azul to-purpleLigth opacity-20 rounded-full w-[25rem] h-[25rem] "></div>
-            <div className="absolute blur-3xl top-[37rem] left-[70rem] bg-gradient-to-b from-azul to-purpleLigth opacity-20 rounded-full w-[25rem] h-[25rem] "></div>
-            <div className="absolute blur-3xl top-[67rem] left-[0rem] bg-gradient-to-b from-azul to-purpleLigth opacity-20 rounded-full w-[25rem] h-[25rem] "></div>
-            <div className="absolute blur-3xl top-[105rem] left-[70rem] bg-gradient-to-b from-azul to-purpleLigth opacity-20 rounded-full w-[25rem] h-[25rem] "></div>
+            <div className="z-0 absolute blur-3xl md:top-[5rem] top-[8rem] md:left-[0rem] bg-gradient-to-b from-azul to-purpleLigth opacity-20 rounded-full w-80 h-20 md:w-[25rem] md:h-[25rem]"></div>
+            <div className="z-0 absolute blur-3xl top-[57rem] md:top-[37rem] md:left-[70rem] bg-gradient-to-b from-azul to-purpleLigth opacity-20 rounded-full w-80 h-20 md:w-[25rem] md:h-[25rem] "></div>
+            <div className="z-0 absolute blur-3xl top-[110rem] md:left-[0rem] bg-gradient-to-b from-azul to-purpleLigth opacity-20 rounded-full w-80 h-20 md:w-[25rem] md:h-[25rem] "></div>
+            <div className="z-0 absolute blur-3xl top-[158rem] md:top-[105rem] md:left-[70rem] bg-gradient-to-b from-azul to-purpleLigth md:opacity-20 opacity-35 rounded-full md:w-[25rem] md:h-[25rem] w-80 h-20"></div>
             
             <div className='z-10 flex flex-col md:flex-row gap-9 mt-[-60px]'>
                 <div className="">
