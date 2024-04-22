@@ -25,7 +25,7 @@ function App() {
       <Home/>
       <About/>
       <Skills/>
-      <Projects/>
+      <Services/>
       <Services/>
       <Contact/>
       <Footer/>

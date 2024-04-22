@@ -26,9 +26,9 @@ export default function About() {
                     
                 </div>
 
-                <div className="leading-6 text-justify font-medium p-8 mt-10">
+                <div className="leading-6 text-justify font-medium p-6 mt-10">
                     <p className="font-medium ">
-                        <span className="text-2xl font-semibold text-slate-600">{t('Hello, my name is Yasmim Barros!')}</span>
+                        <span className="text-xl font-semibold text-slate-600">{t('Hello, my name is Yasmim Barros!')}</span>
                         <br/>
                         <br/>
                         {t('I am 22 years old, born in Bahia, born in the city of Salvador, but residing in Feira de Santana, the princess of the Bahia hinterland!')} <br /> <br /> 
