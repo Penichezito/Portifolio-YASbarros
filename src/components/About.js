@@ -17,13 +17,13 @@ export default function About() {
             </div>
 
             <div>
-                <div className="absolute blur-3xl top-14 bg-gradient-to-t from-azul to-purpleLigth opacity-25 rounded-full w-[30rem] h-[30rem]"></div>
-                <div className="absolute blur-3xl top-[15rem] left-[70rem] bg-gradient-to-b from-azul to-purpleLigth opacity-20 rounded-full w-[25rem] h-[25rem] "></div>
+                <div className="absolute blur-3xl top-14 bg-gradient-to-t from-azul to-purpleLigth opacity-25 rounded-full md:w-[30rem] md:h-[30rem]"></div>
+                <div className="absolute blur-3xl top-[15rem] left-[70rem] bg-gradient-to-b from-azul to-purpleLigth opacity-20 rounded-full md:w-[25rem] md:h-[25rem] "></div>
             </div>
             
 
         
-            <div className="z-10 md:flex-row flex flex-col items-center ">
+            <div className="z-10 md:flex-row flex flex-col items-center">
                 <div className="relative flex justify-center md:mx-20">
                     {/* <div className=" absolute z-0 left-20 top-7 bg-red-300 shadow-lg w-[20rem] h-[27rem] rounded-[10px]"></div> */}
                         <img className="shadow-lg rounded-[10px] z-10 md:w-[55rem] md:h-[32rem] w-[20rem] h-[27rem]" src={eu} alt={t('My Image')} />
