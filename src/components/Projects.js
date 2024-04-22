@@ -5,9 +5,14 @@ import html from '../icons/html5.png';
 import css from '../icons/css3.png';
 import boots from '../icons/bootstrap5.png';
 import js from '../icons/js.png';
+import { React, useTranslation } from 'react-i18next';
 export default function Projects(){
 
+    const { t } = useTranslation();
+
+
     return(
+     
         <div id="projects" className=" dark:bg-gray-950  dark:text-slate-300 container mx-auto px-5 grid justify-items-center text-center mt-10 mb-14 font-plus md:gap-40 gap-20">
 
             <div className="mt-5 mb-10 md:mb-2">
@@ -84,8 +89,8 @@ export default function Projects(){
                     <img className="shadow-lg md:h-[20rem] w-[30rem] h-[17rem]" src={agencia}></img>
                 </div>
                 <div className="text-right place-content-end">
-                    <h1 className="text-3xl font-medium mb-5">Agencia de Marketing</h1>
-                    <p className="mb-5  max-w-[500px]">Landing page de agencia digital de marketing, responsivo, desenvolvido para prática e aperfeiçoamento de conhecimentos</p>
+                    <h1 className="text-3xl font-medium mb-5">{t('Agencia de Marketing')}</h1>
+                    <p className="mb-5  max-w-[500px]">{t('Landing page de agencia digital de marketing, responsivo, desenvolvido para prática e aperfeiçoamento de conhecimentos')}</p>
                     <div className="flex flex-row gap-5 mb-8 justify-end">
                         <div className="w-16 h-16  bg-gray-400 rounded-full items-center flex justify-center">
                             <img className="size-10" src={html}></img>

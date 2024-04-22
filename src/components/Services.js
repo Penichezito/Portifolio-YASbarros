@@ -15,10 +15,10 @@ export default function Services(){
                     <h1 className="text-slate-100 text-3xl md:text-4xl mb-4 ml-0">{t("Serviços Autonomos")}</h1>
                     <div class="h-[3px] w-64 bg-gradient-to-l from-transparent via-roxo to-roxo"></div>
                 </div>
-                <p className="text-slate-300 mt-10 md:w-[50rem] p-8 text-base md:text-lg"> 
+                <p className="text-slate-300 mt-2 md:w-[50rem] p-8 text-base md:text-lg"> 
                 {t("Ofereço serviços de qualidade de desenvolvimento de sites e landing page pra quem deseja aumentar a presença online do seu negócio ou marca com muito mais personalidade e resultados. Vem mudar o futuro da seu negócio também! ")}</p>
             </div>
-            <div className="flex flex-col md:flex-row items-center mt-20 gap-20 mb-24 px-2">
+            <div className="flex flex-col md:flex-row items-center mt-8 gap-12 mb-24 px-2">
                 <div className="bg-overlay bg-opacity-40  shadow-overlay shadow-inner-lg border-4 border-overlay md:w-[27rem] md:h-[35rem] w-[19rem] h-[25rem] rounded-3xl place-content-center grid justify-items-center">
                      <img className="md:size-32 size-24" src={laptop}></img>
                     <h1 className="mt-10 font-bold text-white text-xl md:text-2xl">{t("Sites")}</h1>

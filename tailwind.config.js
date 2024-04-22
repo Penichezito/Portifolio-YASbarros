@@ -23,6 +23,7 @@ module.exports = {
         mindaro: '#E9F995',
         roxo: '#4C2A85',
         blueBt: '#0057FF',
+        azul: '#0F687C',
         
       },
      },

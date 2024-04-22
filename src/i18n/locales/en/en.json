@@ -11,20 +11,24 @@
     "EN": "EN",
     "PT": "PT",
     "Software Developer": "Software Developer",
-    "Olá, sou a Yasmim e sou desenvolvedora web e estudante de S.I.": "Hi, my name is Yasmim and I'm a web developer and S.I. student.",
+    "Sou a Yasmim e sou desenvolvedora de software e estudante de S.I.": "I'm Yasmim and I'm a software developer and S.I. student.",
     "Welcome to my portfolio!": "Welcome to my portfolio!",
-    "Load CV": "Load CV",
+    "Load CV": "Download CV",
 
 
     "My Image": "My Image",
     "About Me": "About Me",
     "About me": "About me",
     "Personal Presentation": "Personal Presentation",
-    "My name is Yasmim!": "My name is Yasmim!",
-    "I am 22 years old, born in Bahia, born in the city of Salvador, but residing in Feira de Santana, the princess of the Bahia hinterland!": "I am 22 years old, born in Bahia, born in the city of Salvador, but residing in Feira de Santana, the princess of the Bahia hinterland!",
-    "I am a web programmer and freelance developer. I love creating beautiful, responsive websites with great user experience, however, I also have a strong interest in backend development.": "I am a web programmer and freelance developer. I love creating beautiful, responsive websites with great user experience, however, I also have a strong interest in backend development.",
-    "Undergraduate student in Information Systems at IFBA and graduated in Systems Development Technician by Senai/BA.": "Undergraduate student in Information Systems at IFBA and graduated in Systems Development Technician by Senai/BA.",
-    "Passion for technology and the significant transformations it can promote. Below are some skills and web projects I have done.": "Passion for technology and the significant transformations it can promote. Below are some skills and web projects I have done.",
+    "Hello, my name is Yasmim Barros!": "Hello, my name is Yasmim Barros!",
+    "I am 22 years old, born in Bahia, born in the city of Salvador, but residing in Feira de Santana, the princess of the Bahia hinterland!": "I'm 22 years old, I'm from Bahia, born in the city of Salvador, but living in Feira de Santana, the princess of the Bahian backlands!",
+    "I am a Software developer and Information Systems student. I love learning new things and I am always on the move, whether developing a new project or exploring new technologies.": "I am a Software developer and Information Systems student. I love learning new things and I'm always on the move, whether developing a new project or exploring new technologies.",
+    "Below are some skills and projects I carried out.": "Below are some skills and projects I carried out.",
+    "Sistemas de Informação": "Information Systems",
+    "Em andamento":"In progress",
+    "Téc. Desenv. de Sistemas": "Tech. Development of Systems",
+    "Concluído": "Concluded",
+    
 
     
     "Conhecimentos Técnicos": "Technical Skills",
@@ -42,6 +46,10 @@
     "Git": "Git",
     "Figma": "Figma",
     "Vscode": "Vscode",
+
+    "Agencia de Marketing": "Marketing Agency",
+    "Landing page de agencia digital de marketing, responsivo, desenvolvido para prática e aperfeiçoamento de conhecimentos":"Digital marketing agency landing page, responsive, developed for practice and knowledge improvement",
+
 
     "Serviços Autonomos" : "Autonomous Services",
     "Sites" : "Websites",

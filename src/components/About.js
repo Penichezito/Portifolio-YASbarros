@@ -28,28 +28,29 @@ export default function About() {
 
                 <div className="leading-6 text-justify font-medium p-8 mt-10">
                     <p className="font-medium ">
-                        <span className="text-2xl font-semibold text-slate-600">{t('My name is Yasmim!')}</span>
+                        <span className="text-2xl font-semibold text-slate-600">{t('Hello, my name is Yasmim Barros!')}</span>
                         <br/>
                         <br/>
-                        {/* {t('I am 22 years old, born in Bahia, born in the city of Salvador, but residing in Feira de Santana, the princess of the Bahia hinterland!')} <br /> <br /> */}
-                        {t('I am a web programmer and freelance developer. I love creating beautiful, responsive websites with great user experience, however, I also have a strong interest in backend development.')} <br /> <br />
-                        {/* {t('Undergraduate student in Information Systems at IFBA and graduated in Systems Development Technician by Senai/BA.')} <br /> <br /> */}
-                        {t('Passion for technology and the significant transformations it can promote. Below are some skills and web projects I have done.')}
+                        {t('I am 22 years old, born in Bahia, born in the city of Salvador, but residing in Feira de Santana, the princess of the Bahia hinterland!')} <br /> <br /> 
+                        {t('I am a Software developer and Information Systems student. I love learning new things and I am always on the move, whether developing a new project or exploring new technologies.')} <br /> <br />
+                
+                        {t('Below are some skills and projects I carried out.')}
                         <br></br>
                     </p>
-                    <div className="flex-row flex gap-2 mt-6 justify-center items-center md:justify-start md:items-start">
-                    <div className="w-40 h-32 border-slate-500 rounded-2xl border-2 flex justify-center items-center">
+                    <div className="flex-row flex gap-2 mt-10 justify-center items-center md:justify-start md:items-start">
+                    <div className="w-40 h-32 bg-slate-200  dark:bg-slate-900  rounded-2xl flex justify-center items-center">
                         <div className="flex flex-col items-center gap-2">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                                 <path d="M11.7 2.805a.75.75 0 0 1 .6 0A60.65 60.65 0 0 1 22.83 8.72a.75.75 0 0 1-.231 1.337 49.948 49.948 0 0 0-9.902 3.912l-.003.002c-.114.06-.227.119-.34.18a.75.75 0 0 1-.707 0A50.88 50.88 0 0 0 7.5 12.173v-.224c0-.131.067-.248.172-.311a54.615 54.615 0 0 1 4.653-2.52.75.75 0 0 0-.65-1.352 56.123 56.123 0 0 0-4.78 2.589 1.858 1.858 0 0 0-.859 1.228 49.803 49.803 0 0 0-4.634-1.527.75.75 0 0 1-.231-1.337A60.653 60.653 0 0 1 11.7 2.805Z" />
-                                <path d="M13.06 15.473a48.45 48.45 0 0 1 7.666-3.282c.134 1.414.22 2.843.255 4.284a.75.75 0 0 1-.46.711 47.87 47.87 0 0 0-8.105 4.342.75.75 0 0 1-.832 0 47.87 47.87 0 0 0-8.104-4.342.75.75 0 0 1-.461-.71c.035-1.442.121-2.87.255-4.286.921.304 1.83.634 2.726.99v1.27a1.5 1.5 0 0 0-.14 2.508c-.09.38-.222.753-.397 1.11.452.213.901.434 1.346.66a6.727 6.727 0 0 0 .551-1.607 1.5 1.5 0 0 0 .14-2.67v-.645a48.549 48.549 0 0 1 3.44 1.667 2.25 2.25 0 0 0 2.12 0Z" />
+                                <path d="M13.06 15.473a48.45 48.45 0 0 1 7.666-3.282c.134 1.414.22 2.843.255 4.284a.75.75 0 0 1-.46.711 47.87 47.87 0 0 0-8.105 4.342.75.75 0 0 1-.832 0 47.87 47.87 0 0 0-8.104-4.342.75.75 0 0 1-.461-.71c.035-1.442.121-2.87.255-4.286.921.304 1.83.634 2.726.99v1.27a1.5 1.5 0 0 0-.14 2.508c-.09.38-.222.753-.397 1.11.452.213.901.434 1.346.66a6.727 6.727 0 0 0 .551-1.607 1.5 1.5 0 0 0 .14-2.67v-.645a48.549 48.549 0 0 1 3.44 1.667 2.25 2.25 0 0 0 2.12 0Z"/>
                                 <path d="M4.462 19.462c.42-.419.753-.89 1-1.395.453.214.902.435 1.347.662a6.742 6.742 0 0 1-1.286 1.794.75.75 0 0 1-1.06-1.06Z" />
                             </svg>
-                            <h1 className="text-center text-sm font-bold">Sistemas de Informação</h1>
-                            {/* <p className="text-sm">Em andamento</p> */}
+                            <h1 className="text-center text-sm font-bold">{t('Sistemas de Informação')}</h1>
+                            <p className="text-xs text-slate-500">{t('Em andamento')}</p>
+                            
                         </div>
                     </div>
-                    <div className="w-40 h-32 border-slate-500 rounded-2xl border-2 flex justify-center items-center">
+                    <div className="w-40 h-32 bg-slate-200 dark:bg-slate-900 dark:border-slate-950  rounded-2xl flex justify-center items-center">
                         <div className="flex flex-col items-center gap-2">
                             <div className="">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -58,13 +59,14 @@ export default function About() {
                                 </svg>
                             </div>
 
-                            <h1 className="text-center text-sm font-bold">Téc. Desenv. de Sistemas</h1>
-                            {/* <p className="text-sm">Em andamento</p> */}
+                            <h1 className="text-center text-sm font-bold">{t('Téc. Desenv. de Sistemas')}</h1>
+                            <p className="text-xs text-slate-500">{t('Concluído')}</p>
+                            
                         </div>
                     </div>
                     </div>
                     <div className="flex md:justify-start md:items-start justify-center items-center">
-                    <a href="#contact" className="text-gray-500 px-6 py-3 rounded-xl mt-8 bg-mindaro font-bold">Contactar</a>
+                    <a href="#contact" className=" transition duration-500 text-overlay px-6 py-3 border-2 border-overlay rounded-3xl mt-8 font-bold hover:border-roxo hover:text-roxo dark:hover:border-mindaro dark:hover:text-mindaro">{t('Contato')}</a>
                     </div>
                 </div>     
             
