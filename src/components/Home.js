@@ -48,6 +48,8 @@ export default function Home(){
   const handleThemeSwitch = () =>{
     setTheme(theme === "dark" ? "ligth" : "dark");
   }
+  
+    
 
 
     return(
@@ -56,7 +58,7 @@ export default function Home(){
             <div className=" md:mt-20 mt-8 mx-8 md:flex-row flex-col flex justify-between">
                 
                 <div className=" flex md:flex-col flex-row md:gap-10  gap-5 items-center md:justify-start justify-center">
-                    <button onClick={toggleAudio} className="w-10 h-8 md:w-16 md:h-16">
+                    <button onClick={toggleAudio} className="w-10 h-8 md:w-16 md:h-16 dark:hidden">
                         {playing ? <img  src={gif}></img> : <img src={sound}></img>}
                     </button>
                     <audio className="hidden" ref={audioRef} controls>
@@ -70,15 +72,35 @@ export default function Home(){
 
 
 
-                    <button className="shadow-lg border dark:border-gray-900 dark:shadow-slate-700 shadow-gray-200 hover:shadow-inner  dark:hover:shadow-gray-700 rounded-full w-16 h-7 md:w-12 md:h-28 flex justify-center items-center" onClick={handleThemeSwitch} >
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 md:w-6 md:h-6">
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+                    <button className={`shadow-lg border ${theme === "dark" ? 'dark:border-gray-900 dark:shadow-slate-700' : 'border-gray-200 shadow-gray-200'} hover:shadow-inner dark:hover:shadow-gray-700 rounded-full w-16 h-7 md:w-12 md:h-28 flex justify-center items-center`}onClick={handleThemeSwitch}>
+                    {theme === "ligth" ? (
+                        <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="1.5"
+                        stroke="currentColor"
+                        className="w-5 h-5 md:w-6 md:h-6"
+                        >
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
                         </svg>
+                    ) : (
+                        <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="1.5"
+                        stroke="currentColor"
+                        className="w-5 h-5 md:w-6 md:h-6"
+                        >
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+                        </svg>
+                    )}
                     </button>
                 </div>
 
                 <div className="absolute flex justify-center items-center top-40 left-28 md:top-48 md:left-[12rem] z-0 md:w-[67rem] md:h-[25rem] w-48 h-60">
-                    <div className="bg-gradient-to-r from-azul to-purpleLigth absolute inset-0 blur-3xl rounded-full opacity-45 md:opacity-30 transform rotate-12 origin-center"></div>
+                    <div className="bg-gradient-to-r from-azul to-purpleLigth absolute inset-0 blur-3xl rounded-full opacity-45 md:opacity-20 transform rotate-12 origin-center"></div>
                 </div> 
 
                 <div className="z-10 flex flex-col-reverse md:flex-row gap-16 px-5 md:px-14">

@@ -5,7 +5,15 @@ import html from '../icons/html5.png';
 import css from '../icons/css3.png';
 import boots from '../icons/bootstrap5.png';
 import js from '../icons/js.png';
+import laravel from '../icons/laravel.png';
+import tailwind from '../icons/tailwind.png';
+import todolist from '../img/todolist.jpg';
+import corretora from '../img/corretora.jpg';
+import react from '../icons/reactjs.png';
+import mysql from '../icons/mysql.png';
+import php from '../icons/php.png';
 import { React, useTranslation } from 'react-i18next';
+
 export default function Projects(){
 
     const { t } = useTranslation();
@@ -28,7 +36,7 @@ export default function Projects(){
             <div className="z-0 absolute blur-3xl top-[110rem] md:left-[0rem] bg-gradient-to-r from-azul to-purpleLigth opacity-20 rounded-full w-96 h-[27rem] md:w-[25rem] md:h-[25rem] "></div>
             <div className="z-0 absolute blur-3xl top-[158rem] md:top-[105rem] md:left-[70rem] bg-gradient-to-r from-azul to-purpleLigth md:opacity-20 opacity-35 rounded-full md:w-[25rem] md:h-[25rem] w-96 h-[27rem]"></div>
             
-            <div className='z-10 flex flex-col md:flex-row gap-9 mt-[-60px]'>
+            {/* <div className='z-10 flex flex-col md:flex-row gap-9 '>
                 <div className="">
                     <img className="shadow-lg h-[20rem] w-[30rem]" src={sp}></img>
                 </div>
@@ -46,67 +54,94 @@ export default function Projects(){
                         <button className="border-slate-600 border-2 transition hover:border-mindaro duration-500  rounded-full px-6 py-3 text-black dark:text-white ">GitHub</button>
                     </div>
                 </div>
-            </div> 
+            </div>  */}
 
             <div className='z-10 flex flex-col md:flex-row-reverse gap-9'>
-                <div className="">
-                    <img className="shadow-lg h-[20rem] w-[30rem]" src={sp}></img>
+            <div className="relative">
+                    <div className="absolute bg-black h-full top-0 left-0 w-full bg-opacity-0 "></div>
+                    <img className=" md:h-[22rem] w-[30rem] h-[12rem]" src={corretora}></img>
                 </div>
                 <div className="text-right place-content-end">
-                    <h1 className="text-3xl font-medium mb-5">Projeto tal e etc</h1>
-                    <p className="mb-5  max-w-[500px]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In dolore, cum sed libero laboriosam voluptate consectetur optio quibusdam, quam necessitatibus iure deleniti vitae hic, unde temporibus praesentium? Harum, pariatur. Cum.</p>
+                    <h1 className="text-3xl font-medium mb-5">{t('Sistema de Imobiliária')}</h1>
+                    <p className="mb-5  max-w-[500px]">{t('O sistema visa melhorar a experiência de compra para os clientes e otimizar a gestão dos profissionais imobiliários. Centraliza todas as informações necessárias para facilitar o fechamento de negócios, permitindo que os corretores cadastrem, editem e removam imóveis. Além disso, oferece uma seção que mostra o status das listagens de propriedades, dando uma visão clara do catálogo da corretora.')}</p>
                     <div className="flex flex-row gap-5 mb-8 justify-end">
-                        <div className="w-16 h-16 rounded-full bg-slate-300"></div>
-                        <div className="w-16 h-16 rounded-full bg-slate-300"></div>
-                        <div className="w-16 h-16 rounded-full bg-slate-300"></div>
-                        <div className="w-16 h-16 rounded-full bg-slate-300"></div>
+                        <div className="w-16 h-16  bg-gray-400 bg-opacity-30 rounded-full items-center flex justify-center">
+                            <img className="size-10" src={html}></img>
+                        </div>
+                        <div className="w-16 h-16  bg-gray-400 bg-opacity-30 rounded-full items-center flex justify-center">
+                            <img className="size-10" src={react}></img>
+                        </div>
+                        <div className="w-16 h-16 rounded-full bg-gray-400 bg-opacity-30 items-center flex justify-center">
+                            <img className="size-10" src={laravel}></img>
+                        </div>
+                        <div className="w-16 h-16 rounded-full bg-gray-400 bg-opacity-30 items-center flex justify-center">
+                            <img className="w-10 h-7" src={tailwind}></img>
+                        </div>
+                        <div className="w-16 h-16 rounded-full bg-gray-400 bg-opacity-30 items-center flex justify-center">
+                            <img className="size-10" src={mysql}></img>
+                        </div>
+                        <div className="w-16 h-16 rounded-full bg-gray-400 bg-opacity-30 items-center flex justify-center">
+                            <img className="w-11 h-6" src={php}></img>
+                        </div>
                     </div>
                     <div className="flex flex-row gap-4 justify-end">
                         <button className=" transition hover:border-mindaro duration-500 border-slate-600 border-2 rounded-full px-6 py-3 text-black dark:text-white  ">Deploy</button>
-                        <button className="transition hover:border-mindaro duration-500 border-slate-600 border-2 rounded-full px-6 py-3 text-black dark:text-white ">GitHub</button>
+                        <a href='https://github.com/Yasbarros/Corretora-de-Imoveis' className="transition hover:border-mindaro duration-500 border-slate-600 border-2 rounded-full px-6 py-3 text-black dark:text-white ">GitHub</a>
                     </div>
                 </div>
             </div> 
 
             <div className='z-10 flex flex-col md:flex-row gap-9'>
-                <div className="">
-                    <img className="shadow-lg h-[20rem] w-[30rem]" src={sp}></img>
+                <div className="relative shadow-2xl">
+                    <div className="absolute bg-black h-full top-0 left-0 w-full bg-opacity-0 "></div>
+                    <img className=" md:h-[22rem] w-[30rem] h-[12rem]" src={todolist}></img>
                 </div>
                 <div className="text-left place-content-end">
-                    <h1 className="text-3xl font-medium mb-5">Projeto tal e etc</h1>
-                    <p className="mb-5 max-w-[500px]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In dolore, cum sed libero laboriosam voluptate consectetur optio quibusdam, quam necessitatibus iure deleniti vitae hic, unde temporibus praesentium? Harum, pariatur. Cum.</p>
+                    <h1 className="text-3xl font-medium mb-5">ToDo List</h1>
+                    <p className="mb-5 max-w-[500px]">{t('A Todo List é uma solução de gerenciamento de tarefas projetada para impulsionar a produtividade e a organização. Equipada com uma interface intuitiva, os usuários podem facilmente priorizar suas tarefas utilizando etiquetas inteligentes e acompanhar os prazos de conclusão de forma simplificada.')}</p>
                     <div className="flex flex-row gap-5 mb-8">
-                        <div className="w-16 h-16 rounded-full bg-slate-300"></div>
-                        <div className="w-16 h-16 rounded-full bg-slate-300"></div>
-                        <div className="w-16 h-16 rounded-full bg-slate-300"></div>
-                        <div className="w-16 h-16 rounded-full bg-slate-300"></div>
+                        <div className="w-16 h-16  bg-gray-400 bg-opacity-30 rounded-full items-center flex justify-center">
+                            <img className="size-10" src={html}></img>
+                        </div>
+                        <div className="w-16 h-16  bg-gray-400 bg-opacity-30 rounded-full items-center flex justify-center">
+                            <img className="size-10" src={js}></img>
+                        </div>
+                        <div className="w-16 h-16 rounded-full bg-gray-400 bg-opacity-30 items-center flex justify-center">
+                            <img className="size-10" src={mysql}></img>
+                        </div>
+                        <div className="w-16 h-16 rounded-full bg-gray-400 bg-opacity-30 items-center flex justify-center">
+                            <img className="w-10 h-7" src={tailwind}></img>
+                        </div>
+                        <div className="w-16 h-16 rounded-full bg-gray-400 bg-opacity-30 items-center flex justify-center">
+                            <img className="size-10" src={laravel}></img>
+                        </div>
                     </div>
                     <div className="flex flex-row gap-4">
                         <button className="transition hover:border-mindaro duration-500 border-slate-600 border-2 rounded-full px-6 py-3 text-black dark:text-white ">Deploy</button>
-                        <button className="transition hover:border-mindaro duration-500 border-slate-600 border-2 rounded-full px-6 py-3 text-black dark:text-white ">GitHub</button>
+                        <a href='https://github.com/Yasbarros/ToDo-List' className="transition hover:border-mindaro duration-500 border-slate-600 border-2 rounded-full px-6 py-3 text-black dark:text-white ">GitHub</a>
                     </div>
                 </div>
             </div> 
 
             <div className='z-10 flex flex-col md:flex-row-reverse gap-9'>
-                <div className="relative shadow-2xl">
+                <div className="relative">
                     <div className="absolute bg-black h-full top-0 left-0 w-full bg-opacity-60 "></div>
-                    <img className="shadow-lg md:h-[20rem] w-[30rem] h-[17rem]" src={agencia}></img>
+                    <img className="shadow-lg md:h-[20rem] w-[30rem] h-[12rem]" src={agencia}></img>
                 </div>
                 <div className="text-right place-content-end">
                     <h1 className="text-3xl font-medium mb-5">{t('Agencia de Marketing')}</h1>
                     <p className="mb-5  max-w-[500px]">{t('Landing page de agencia digital de marketing, responsivo, desenvolvido para prática e aperfeiçoamento de conhecimentos')}</p>
                     <div className="flex flex-row gap-5 mb-8 justify-end">
-                        <div className="w-16 h-16  bg-gray-400 rounded-full items-center flex justify-center">
+                        <div className="w-16 h-16  bg-gray-400 bg-opacity-30 rounded-full items-center flex justify-center">
                             <img className="size-10" src={html}></img>
                         </div>
-                        <div className="w-16 h-16 rounded-full bg-gray-400 items-center flex justify-center">
+                        <div className="w-16 h-16 rounded-full bg-gray-400 bg-opacity-30 items-center flex justify-center">
                             <img className="size-10" src={css}></img>
                         </div>
-                        <div className="w-16 h-16 rounded-full bg-gray-400 items-center flex justify-center">
+                        <div className="w-16 h-16 rounded-full bg-gray-400 bg-opacity-30 items-center flex justify-center">
                             <img className="size-10" src={js}></img>
                         </div>
-                        <div className="w-16 h-16 rounded-full bg-gray-400 items-center flex justify-center">
+                        <div className="w-16 h-16 rounded-full bg-gray-400 bg-opacity-30 items-center flex justify-center">
                             <img className="size-10 w-12" src={boots}></img>
                         </div>
                     </div>
