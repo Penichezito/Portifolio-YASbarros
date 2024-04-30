@@ -12,7 +12,7 @@ Este é o meu portfólio pessoal, onde compartilho informações sobre mim, meus
 
 ## Sobre Mim
 
-Olá, sua a Yasmim, tenho 22 anos, natural da Bahia, sou desenvolvedora de Software e estudante de Sistemas de Informação. Adoro aprender coisas novas e estou sempre em movimento, seja desenvolvendo um novo projeto ou explorando novas tecnologias. Segue abaixo algumas habilidades e projetos que realizei.
+Olá, sua a Yasmim, tenho 22 anos, natural da Bahia, sou desenvolvedora de Software e estudante de Sistemas de Informação. Adoro aprender coisas novas e estou sempre em movimento. Segue abaixo algumas habilidades e projetos que realizei.
 
 
 ## Projetos
