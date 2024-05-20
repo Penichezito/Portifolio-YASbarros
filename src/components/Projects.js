@@ -33,7 +33,7 @@ export default function Projects(){
 
             <div className='flex flex-col md:flex-row-reverse md:gap-10'>
                 <div>
-                    <img className='md:w-[30rem] h-[16rem] md:h-[20rem] rounded-2xl shadow-slate-500 md:shadow-black shadow-xl' src={corretora} alt="corretora"></img>
+                    <img className='md:w-[30rem] h-[16rem] md:h-[20rem] rounded-2xl shadow-slate-600 dark:shadow-black shadow-xl' src={corretora} alt="corretora"></img>
                 </div>
                 <div className='md:flex md:flex-col'>
                     <div className='text-right mt-5 md:mt-0'>
@@ -69,7 +69,7 @@ export default function Projects(){
 
             <div className='flex flex-col md:flex-row md:gap-10'>
                 <div className="">
-                    <img className='md:w-[30rem] rounded-2xl shadow-slate-500 md:shadow-black shadow-xl' src={todolist} alt='todolist'></img>
+                    <img className='md:w-[30rem] rounded-2xl shadow-slate-600 dark:shadow-black shadow-xl' src={todolist} alt='todolist'></img>
                 </div>
                 <div className='md:flex md:flex-col'>
                     <div className='text-left mt-5 md:mt-0'>
@@ -106,7 +106,7 @@ export default function Projects(){
 
             <div className='flex flex-col md:flex-row-reverse md:gap-10'>
                 <div>
-                    <img className='md:w-[30rem] rounded-2xl shadow-slate-500 md:shadow-black shadow-xl' src={agencia} alt="agencia"></img>
+                    <img className='md:w-[30rem] rounded-2xl shadow-slate-600 dark:shadow-black shadow-xl' src={agencia} alt="agencia"></img>
                 </div>
                 <div className='md:flex md:flex-col justify-end'>
                     <div className='text-right mt-5'>
