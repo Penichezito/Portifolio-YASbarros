@@ -19,12 +19,12 @@ export default function Services(){
                 {t("Ofereço serviços de desenvolvimento de sites e landing pages de qualidade, ideais para quem deseja fortalecer a presença online do seu negócio ou marca, agregando personalidade e resultados. Venha impulsionar o futuro do seu negócio! ")}</p>
             </div>
             <div className="flex flex-col md:flex-row items-center mt-8 gap-24 mb-24 px-2">
-                <div className="relative bg-gradient-to-b from-roxo to-black md:w-[23rem] md:h-[28rem] w-[17rem] h-[23rem] rounded-2xl place-content-center grid justify-items-center">
+                <div className="relative bg-gradient-to-b from-purple-950 bg-opacity-5 to-black md:w-[23rem] md:h-[28rem] w-[17rem] h-[23rem] rounded-2xl place-content-center grid justify-items-center">
                      <img className="md:size-28 size-24" src={laptop} alt='site'></img>
                     <h1 className="mt-8 font-bold text-white text-xl md:text-2xl">{t("Sites")}</h1>
                     <a href="#contact" className="absolute bg-purple-500 font-bold bottom-0 rounded-lg px-20 py-2 md:px-32 md:py-4 text-white hover:bg-teal-600 transition duration-500 " >{t("Contratar")}</a>
                 </div>
-                <div className="relative bg-gradient-to-b from-roxo to-black md:w-[23rem] md:h-[28rem] w-[17rem] h-[23rem] rounded-2xl place-content-center grid justify-items-center">
+                <div className="relative bg-gradient-to-b from-purple-950 to-black md:w-[23rem] md:h-[28rem] w-[17rem] h-[23rem] rounded-2xl place-content-center grid justify-items-center">
                     <img className="md:size-20 size-20" src={web} alt='landing'></img> 
                     <h1 className="mt-10 font-bold text-white  text-xl md:text-2xl">{t("Landing Pages")}</h1>
                     <a href="#contact" className=" absolute bg-purple-500 font-bold bottom-0 rounded-lg px-20 py-2 md:px-32 md:py-4 text-white hover:bg-teal-600 transition duration-500 " >{t("Contratar")}</a>
