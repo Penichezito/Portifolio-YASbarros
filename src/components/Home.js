@@ -58,7 +58,7 @@ export default function Home(){
             <div className=" md:mt-20 mt-8 mx-8 md:flex-row flex-col flex justify-between">
                 
                 <div className=" flex md:flex-col flex-row md:gap-10  gap-5 items-center md:justify-start justify-center">
-                    <button onClick={toggleAudio} className="w-10 h-8 md:w-16 md:h-16 dark:hidden">
+                    <button onClick={toggleAudio} className="w-10 h-8 md:w-16 md:h-16 ">
                         {playing ? <img  src={gif} alt='gif'></img> : <img src={sound} alt='sound'></img>}
                     </button>
                     <audio className="hidden" ref={audioRef} controls>
