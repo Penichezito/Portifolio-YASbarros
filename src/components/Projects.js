@@ -58,8 +58,8 @@ export default function Projects(){
                         </div>
                     </div>
                     <div className="flex flex-row gap-4 justify-end">
-                            <a href="https://agenciadigital.vercel.app/" className="transition hover:border-roxo duration-500  border-slate-600 border-2 rounded-full px-6 py-3 text-black dark:text-white ">Deploy</a>
-                            <a href="https://github.com/Yasbarros/Agencia-Digital" className="transition hover:border-roxo duration-500 border-slate-600 border-2 rounded-full px-6 py-3 text-black dark:text-white ">GitHub</a>
+                            <a href="https://agenciadigital.vercel.app/" className="transition hover:border-roxo duration-500  border-overlay hover:text-roxo border-2 rounded-full px-6 py-3 text-overlay">Deploy</a>
+                            <a href="https://github.com/Yasbarros/Agencia-Digital" className="transition hover:border-roxo hover:text-roxo duration-500 border-overlay border-2 rounded-full px-6 py-3 text-overlay">GitHub</a>
                     </div>
                 </div>
                 
@@ -96,8 +96,8 @@ export default function Projects(){
                     </div>
 
                     <div className="flex flex-row gap-4">
-                        <button className="transition hover:border-roxo duration-500 border-slate-600 border-2 rounded-full px-6 py-3 text-black dark:text-white ">Deploy</button>
-                        <a href='https://github.com/Yasbarros/ToDo-List' className="transition hover:border-roxo duration-500 border-slate-600 border-2 rounded-full px-6 py-3 text-black dark:text-white ">GitHub</a>
+                        <button className="transition hover:border-roxo hover:text-roxo duration-500 border-overlay border-2 rounded-full px-6 py-3 text-overlay">Deploy</button>
+                        <a href='https://github.com/Yasbarros/ToDo-List' className="transition hover:border-roxo duration-500 border-overlay hover:text-roxo border-2 rounded-full px-6 py-3 text-overlay">GitHub</a>
                     </div>
 
                 </div>
@@ -128,8 +128,8 @@ export default function Projects(){
                             </div>
                     </div>
                     <div className="flex flex-row gap-4 justify-end">
-                            <a href="https://agenciadigital.vercel.app/" className="transition hover:border-roxo duration-500  border-slate-600 border-2 rounded-full px-6 py-3 text-black dark:text-white ">Deploy</a>
-                            <a href="https://github.com/Yasbarros/Agencia-Digital" className="transition hover:border-roxo duration-500 border-slate-600 border-2 rounded-full px-6 py-3 text-black dark:text-white ">GitHub</a>
+                            <a href="https://agenciadigital.vercel.app/" className="transition hover:border-roxo duration-500  border-overlay border-2 rounded-full px-6 py-3 text-black dark:text-white ">Deploy</a>
+                            <a href="https://github.com/Yasbarros/Agencia-Digital" className="transition hover:border-roxo hover:text-roxo duration-500 border-overlay border-2 rounded-full px-6 py-3 text-overlay">GitHub</a>
                     </div>
                 </div>
                 
