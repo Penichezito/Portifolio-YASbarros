@@ -17,8 +17,8 @@ export default function About() {
             </div>
 
             <div>
-                <div className="absolute blur-3xl top-14 bg-gradient-to-t from-azul to-purpleLigth opacity-25 rounded-full md:w-[30rem] md:h-[30rem]"></div>
-                <div className="absolute blur-3xl top-[15rem] left-[70rem] bg-gradient-to-b from-azul to-purpleLigth opacity-20 rounded-full md:w-[25rem] md:h-[25rem] "></div>
+                <div className="absolute blur-3xl top-14 bg-gradient-to-t from-teal-200 to-purpleLigth opacity-25 rounded-full md:w-[30rem] md:h-[30rem]"></div>
+                <div className="absolute blur-3xl top-[15rem] left-[70rem] bg-gradient-to-b from-teal-200 to-purpleLigth opacity-20 rounded-full md:w-[25rem] md:h-[25rem] "></div>
             </div>
             
 
@@ -26,7 +26,7 @@ export default function About() {
             <div className="z-10 md:flex-row flex flex-col items-center">
                 <div className="relative flex justify-center md:mx-20">
                     {/* <div className=" absolute z-0 left-20 top-7 bg-red-300 shadow-lg w-[20rem] h-[27rem] rounded-[10px]"></div> */}
-                        <img className="shadow-lg rounded-[10px] z-10 md:w-[55rem] md:h-[32rem] w-[20rem] h-[27rem]" src={eu} alt={t('My Image')} />
+                        <img className="shadow-lg rounded-[10px] z-10 md:w-[67rem] md:h-[32rem] w-[20rem] h-[27rem]" src={eu} alt={t('My Image')} />
                     
                 </div>
 
@@ -36,13 +36,13 @@ export default function About() {
                         <br/>
                         <br/>
                         {t('I am 22 years old, born in Bahia, born in the city of Salvador, but residing in Feira de Santana, the princess of the Bahia hinterland!')} <br /> <br /> 
-                        {t('I am a Software developer and Information Systems student. I love learning new things and I am always on the move, whether developing a new project or exploring new technologies.')} <br /> <br />
+                        {t('I am a Software developer and Information Systems student, enthusiastic about continuous learning and exploring new frontiers. With professional experience in technical support and contributions to academic projects, both in back-end and fullstack solutions.')} <br /> <br />
                 
                         {t('Below are some skills and projects I carried out.')}
                         <br></br>
                     </p>
                     <div className="flex-row flex gap-2 mt-10 justify-center items-center md:justify-start md:items-start">
-                    <div className="w-40 h-32 bg-slate-200  dark:bg-slate-900  rounded-2xl flex justify-center items-center">
+                    <div className="w-40 h-32 bg-gradient-to-b from-slate-300  to-white  dark:from-slate-800 dark:to-slate-950  rounded-2xl flex justify-center items-center">
                         <div className="flex flex-col items-center gap-2">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
                                 <path d="M11.7 2.805a.75.75 0 0 1 .6 0A60.65 60.65 0 0 1 22.83 8.72a.75.75 0 0 1-.231 1.337 49.948 49.948 0 0 0-9.902 3.912l-.003.002c-.114.06-.227.119-.34.18a.75.75 0 0 1-.707 0A50.88 50.88 0 0 0 7.5 12.173v-.224c0-.131.067-.248.172-.311a54.615 54.615 0 0 1 4.653-2.52.75.75 0 0 0-.65-1.352 56.123 56.123 0 0 0-4.78 2.589 1.858 1.858 0 0 0-.859 1.228 49.803 49.803 0 0 0-4.634-1.527.75.75 0 0 1-.231-1.337A60.653 60.653 0 0 1 11.7 2.805Z" />
@@ -54,7 +54,7 @@ export default function About() {
                             
                         </div>
                     </div>
-                    <div className="w-40 h-32 bg-slate-200 dark:bg-slate-900 dark:border-slate-950  rounded-2xl flex justify-center items-center">
+                    <div className="w-40 h-32 bg-gradient-to-b from-slate-300  to-white dark:from-slate-800 dark:to-slate-950 rounded-2xl flex justify-center items-center">
                         <div className="flex flex-col items-center gap-2">
                             <div className="">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
@@ -70,7 +70,7 @@ export default function About() {
                     </div>
                     </div>
                     <div className="flex md:justify-start md:items-start justify-center items-center">
-                    <a href="#contact" className=" transition duration-500 text-overlay px-6 py-3 border-2 border-overlay rounded-3xl mt-8 font-bold hover:border-roxo hover:text-roxo dark:hover:border-mindaro dark:hover:text-mindaro">{t('Contato')}</a>
+                    <a href="#contact" className=" transition duration-500 text-overlay px-6 py-3 border-2 border-overlay rounded-3xl mt-8 font-bold hover:border-roxo hover:text-roxo">{t('Contato')}</a>
                     </div>
                 </div>     
             

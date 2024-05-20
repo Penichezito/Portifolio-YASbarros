@@ -4,13 +4,13 @@ import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-import Services2 from './components/Services2';
+import Services from './components/Services';
 import Footer from './components/footer';
 import Contact from './components/Contact';
 import React, { useTransition } from 'react';
-import { UseTranslation } from 'react-i18next';
-import i18n from './i18n/i18n';
-import { useEffect, useState } from 'react';
+// import { UseTranslation } from 'react-i18next';
+// import i18n from './i18n/i18n';
+// import { useEffect, useState } from 'react';
 
 function App() {
   const {t, i18n}= useTransition();
@@ -26,7 +26,7 @@ function App() {
       <About/>
       <Skills/>
       <Projects/>
-      <Services2/>
+      <Services/>
       <Contact/>
       <Footer/>
     </div>
