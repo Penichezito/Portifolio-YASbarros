@@ -37,7 +37,7 @@ export default function Projects(){
                 </div>
                 <div className='md:flex md:flex-col'>
                     <div className='text-right mt-5 md:mt-0'>
-                        <h1 className="text-3xl font-medium mb-5">{t('Sistema de Imobiliária')}</h1>
+                        <h1 className="text-3xl font-medium mb-5">{t('Sistema Imobiliária')}</h1>
                         <p className="mb-5  max-w-[500px]">{t('O sistema tem como objetivo aprimorar a experiência de compra dos clientes e otimizar a gestão dos profissionais do setor imobiliário. Ele centraliza todas as informações necessárias para facilitar o fechamento de negócios, permitindo que os corretores cadastrem, editem e removam imóveis. Adicionalmente, o sistema oferece uma seção dedicada ao status das listagens de propriedades, proporcionando uma visão clara e atualizada do catálogo da corretora.')}</p>
                     </div>
                     <div className="flex flex-row gap-2 mb-6 justify-end">
