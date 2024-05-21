@@ -77,7 +77,7 @@ export default function NavBar() {
           <li className="mb-12 md:mb-0">
             <a
               href="#about"
-              className="hover:shadow-inner-lg px-8 py-4 hover:rounded-full hover:border-slate-300"
+              className="hover:shadow-inner-lg dark:shadow-slate-400 px-8 py-4 hover:rounded-full hover:border-slate-300"
             >
               {t('Sobre')}
             </a>
@@ -85,7 +85,7 @@ export default function NavBar() {
           <li className="mb-12 md:mb-0">
             <a
               href="#skills"
-              className="hover:shadow-inner-lg px-8 py-4 hover:rounded-full hover:border-slate-300"
+              className="hover:shadow-inner-lg dark:shadow-slate-400 px-8 py-4 hover:rounded-full hover:border-slate-300"
             >
               {t('Habilidades')}
             </a>
@@ -93,7 +93,7 @@ export default function NavBar() {
           <li className="mb-12 md:mb-0">
             <a
               href="#services"
-              className="hover:shadow-inner-lg px-8 py-4 hover:rounded-full hover:border-slate-300"
+              className="hover:shadow-inner-lg dark:shadow-slate-400 px-8 py-4 hover:rounded-full hover:border-slate-300"
             >
               {t('Serviços')}
             </a>
@@ -101,7 +101,7 @@ export default function NavBar() {
           <li className="mb-12 md:mb-0">
             <a
               href="#projects"
-              className="hover:shadow-inner-lg px-8 py-4 hover:rounded-full hover:border-slate-300"
+              className="hover:shadow-inner-lg dark:shadow-slate-400 px-8 py-4 hover:rounded-full hover:border-slate-300"
             >
               {t('Projetos')}
             </a>
@@ -109,7 +109,7 @@ export default function NavBar() {
           <li className="mb-12 md:mb-0">
             <a
               href="#contact"
-              className="hover:shadow-inner-lg px-8 py-4 hover:rounded-full hover:border-slate-300"
+              className="hover:shadow-inner-lg dark:shadow-slate-400 px-8 py-4 hover:rounded-full hover:border-slate-300"
             >
               {t('Contato')}
             </a>

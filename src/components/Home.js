@@ -7,7 +7,9 @@ import audio1 from '../audio/audio1.mp3'
 import audio2 from '../audio/audio2.mp3'
 import { useRef, useState, useEffect } from 'react'
 import gif from '../iconsAudio/icons8-audio-wave.gif'
+import gifDark  from '../iconsAudio/icons8-audio-dark.gif'
 import sound from '../iconsAudio/icons8-audio-wave-50.png'
+import soundDark from '../iconsAudio/audioDark.png'
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import cartoon from '../img/cartoon cortado.png'; 
@@ -58,21 +60,41 @@ export default function Home(){
             <div className=" md:mt-20 mt-8 mx-8 md:flex-row flex-col flex justify-between">
                 
                 <div className=" flex md:flex-col flex-row md:gap-10  gap-5 items-center md:justify-start justify-center">
+
+                    <div >
+
+                    </div>
+
                     <button onClick={toggleAudio} className="w-10 h-8 md:w-16 md:h-16 ">
-                        {playing ? <img  src={gif} alt='gif'></img> : <img src={sound} alt='sound'></img>}
+                        {playing ? 
+                        (
+                            theme === "ligth" ? (
+                              <img src={gif} alt="gif" />
+                            ) : (
+                              <img src={gifDark} alt="gif" />
+                            )
+                          ) 
+                        : 
+                        (
+                            theme === "ligth" ? (
+                              <img src={sound} alt="sound" />
+                            ) : (
+                              <img src={soundDark} alt="sound" />
+                            )
+                          )}
                     </button>
                     <audio className="hidden" ref={audioRef} controls>
                         <source src={audio1} type="audio/mp3" />
                         {t("Your browser does not support the audio element.")}
                     </audio>
 
-                    <button className="shadow-lg border dark:border-gray-900 dark:shadow-slate-700 shadow-gray-200 hover:shadow-inner rounded-full w-16 h-7 md:w-12 md:h-28 dark:hover:shadow-slate-700 text-sm md:text-lg" onClick={() => changeLanguage(i18n.language === 'en' ? 'pt' : 'en')}>
+                    <button className="shadow-lg border dark:border-gray-900 dark:shadow-slate-700 shadow-gray-200 active:shadow-inner rounded-full w-16 h-7 md:w-12 md:h-28 dark:active:shadow-slate-700 text-sm md:text-lg" onClick={() => changeLanguage(i18n.language === 'en' ? 'pt' : 'en')}>
                         {i18n.language === 'en' ? 'PT' : 'EN'}
                     </button>
 
 
 
-                    <button className={`shadow-lg border ${theme === "dark" ? 'dark:border-gray-900 dark:shadow-slate-700' : 'border-gray-200 shadow-gray-200'} hover:shadow-inner dark:hover:shadow-gray-700 rounded-full w-16 h-7 md:w-12 md:h-28 flex justify-center items-center`}onClick={handleThemeSwitch}>
+                    <button className={`shadow-lg border ${theme === "dark" ? 'dark:border-gray-900 dark:shadow-slate-700' : 'border-gray-200 shadow-gray-200'} active:shadow-inner dark:active:shadow-gray-700 rounded-full w-16 h-7 md:w-12 md:h-28 flex justify-center items-center`}onClick={handleThemeSwitch}>
                     {theme === "ligth" ? (
                         <svg
                         xmlns="http://www.w3.org/2000/svg"

@@ -33,7 +33,7 @@ export default function Projects(){
 
             <div className='flex flex-col md:flex-row-reverse md:gap-10'>
                 <div>
-                    <img className='md:w-[30rem] h-[16rem] md:h-[20rem] rounded-2xl shadow-slate-600 dark:shadow-black shadow-xl' src={corretora} alt="corretora"></img>
+                    <img className='md:w-[30rem] h-[14rem] md:h-[20rem] rounded-2xl shadow-slate-600 dark:shadow-black shadow-xl' src={corretora} alt="corretora"></img>
                 </div>
                 <div className='md:flex md:flex-col'>
                     <div className='text-right mt-5 md:mt-0'>
@@ -106,12 +106,12 @@ export default function Projects(){
 
             <div className='flex flex-col md:flex-row-reverse md:gap-10'>
                 <div>
-                    <img className='md:w-[30rem] rounded-2xl shadow-slate-600 dark:shadow-black shadow-xl' src={agencia} alt="agencia"></img>
+                    <img className='md:w-[30rem] h-[14rem] rounded-2xl shadow-slate-600 dark:shadow-black shadow-xl' src={agencia} alt="agencia"></img>
                 </div>
                 <div className='md:flex md:flex-col justify-end'>
                     <div className='text-right mt-5'>
-                        <h1 className="text-3xl font-medium mb-5">{t('Agencia de Marketing')}</h1>
-                        <p className="mb-5  max-w-[500px]">{t('Landing page de agencia digital de marketing, responsivo, desenvolvido para prática e aperfeiçoamento de conhecimentos')}</p>
+                        <h1 className="text-3xl font-medium mb-5">{t('Agência de Marketing')}</h1>
+                        <p className="mb-5  max-w-[500px]">{t('Landing page de agência digital de marketing, responsivo, desenvolvido para prática e aperfeiçoamento de conhecimentos')}</p>
                     </div>
                     <div className="flex flex-row gap-2 mb-6 justify-end">
                             <div className="md:w-16 md:h-16 w-14 h-14  bg-gray-400 bg-opacity-30 rounded-full items-center flex justify-center">
