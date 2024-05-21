@@ -6,7 +6,7 @@ import ptTranslation from './locales/pt/pt.json';
 i18n 
     .use(initReactI18next)
     .init({
-        lng: 'pt',
+        lng: 'en',
         fallbackLng: 'en',
         resources: {
             en: {
