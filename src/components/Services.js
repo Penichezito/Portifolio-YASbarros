@@ -15,7 +15,7 @@ export default function Services(){
                     <h1 className="text-slate-100 text-3xl md:text-4xl mb-4 ml-0">{t("Serviços Autonomos")}</h1>
                     <div className="h-[3px] w-64 bg-gradient-to-l from-transparent via-roxo to-roxo"></div>
                 </div>
-                <p className="text-slate-300 mt-2 md:w-[50rem] p-8 text-base md:text-lg text-justify md:text-center"> 
+                <p className="text-slate-300 mt-2 md:w-[50rem] p-8 text-base md:text-lg md:text-center"> 
                 {t("Ofereço serviços de desenvolvimento de sites e landing pages, ideais para quem deseja fortalecer a presença online do seu negócio ou marca, agregando personalidade e resultados. Venha impulsionar o futuro do seu negócio!")}</p>
             </div>
             <div className="flex flex-col md:flex-row items-center mt-8 gap-24 mb-24 px-2">
