@@ -63,7 +63,7 @@ export default function About() {
                                 </svg>
                             </div>
 
-                            <h1 className="text-center text-sm font-bold">{t('Téc. Desenv. de Sistemas')}</h1>
+                            <h1 className="text-center text-sm font-bold px-3">{t('Téc. Desenv. de Sistemas')}</h1>
                             <p className="text-xs text-slate-500">{t('Concluído')}</p>
                             
                         </div>
