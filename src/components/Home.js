@@ -128,7 +128,8 @@ export default function Home(){
                 <div className="z-10 flex flex-col-reverse md:flex-row gap-16 px-5 md:px-14">
                     <div className="md:my-36 mt-[-50px] md:mt-44 mb-0 text-center md:text-left md:ml-24">
                         <h1 className=" bg-clip-text text-transparent bg-gradient-to-r dark:from-teal-400 dark:to-fuchsia-600 from-teal-600 to-fuchsia-600 animate-pulse text-4xl  md:text-5xl mb-3">{t("Software Developer")}</h1>
-                        <p className="font-semibold dark:text-gray-400 text-gray-600 text-base md:text-xl w-full">{t("Sou a Yasmim e sou desenvolvedora de software e estudante de S.I.")}</p>
+                        <p className="font-semibold dark:text-gray-400 text-gray-600 text-base md:text-xl">{t("Oi! Eu sou a Yasmim, uma desenvolvedora de software")}</p>
+                        <p className="font-semibold dark:text-gray-400 text-gray-600 text-base md:text-xl">{t("e estudante de Sistemas de Informação.")}</p>
                         <p className="font-semibold dark:text-gray-400 text-gray-600 text-base md:text-xl mb-7">{t("Welcome to my portfolio!")}</p>
                         <a href={cv} target="_blank" className=" z-10 shadow-slate-400 dark:shadow-slate-400 font-semibold text-gray-600 dark:text-gray-400 shadow-inner-lg hover:shadow-inner-md rounded-full px-10 py-3">{t("Load CV")}</a>
                     </div>
