@@ -88,13 +88,13 @@ export default function Home(){
                         {t("Your browser does not support the audio element.")}
                     </audio>
 
-                    <button className="shadow-lg border dark:border-gray-900 dark:shadow-slate-700 shadow-gray-200 active:shadow-inner rounded-full w-16 h-7 md:w-12 md:h-28 dark:active:shadow-slate-700 text-sm md:text-lg" onClick={() => changeLanguage(i18n.language === 'en' ? 'pt' : 'en')}>
+                    <button className="shadow-lg  dark:border-gray-900 dark:shadow-slate-700 shadow-gray-300 active:shadow-inner rounded-full w-16 h-7 md:w-12 md:h-28 dark:active:shadow-slate-700 text-sm md:text-lg" onClick={() => changeLanguage(i18n.language === 'en' ? 'pt' : 'en')}>
                         {i18n.language === 'en' ? 'PT' : 'EN'}
                     </button>
 
 
 
-                    <button className={`shadow-lg border ${theme === "dark" ? 'dark:border-gray-900 dark:shadow-slate-700' : 'border-gray-200 shadow-gray-200'} active:shadow-inner dark:active:shadow-gray-700 rounded-full w-16 h-7 md:w-12 md:h-28 flex justify-center items-center`}onClick={handleThemeSwitch}>
+                    <button className={`shadow-lg ${theme === "dark" ? ' dark:shadow-slate-700' : 'border-gray-200 shadow-gray-300'} active:shadow-inner dark:active:shadow-gray-700 rounded-full w-16 h-7 md:w-12 md:h-28 flex justify-center items-center`}onClick={handleThemeSwitch}>
                     {theme === "ligth" ? (
                         <svg
                         xmlns="http://www.w3.org/2000/svg"

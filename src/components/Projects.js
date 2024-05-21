@@ -25,10 +25,10 @@ export default function Projects(){
 
             <div className="mt-5">
                 <div className="">
-                    <h1 className="text-4xl md:text-3xl mb-2 dark:text-white text-slate-700">Projetos</h1>
+                    <h1 className="text-4xl md:text-3xl mb-2 dark:text-white text-slate-700">{t('Projetos')}</h1>
                     <div className="h-[3px] md:ml-6 md:w-32 ml-1 w-32 bg-gradient-to-l from-transparent via-roxo to-roxo"></div>
                 </div>
-                <p className="mt-3 text-slate-500 text-sm md:text-lg">Praticas & trabalhos</p>
+                <p className="mt-3 text-slate-500 text-sm md:text-lg">{t('Praticas & trabalhos')}</p>
             </div>
 
             <div className='flex flex-col md:flex-row-reverse md:gap-10'>
@@ -58,7 +58,7 @@ export default function Projects(){
                         </div>
                     </div>
                     <div className="flex flex-row gap-4 justify-end">
-                            <a href="https://agenciadigital.vercel.app/" className="transition hover:border-roxo duration-500  border-overlay hover:text-roxo border-2 rounded-full px-6 py-3 text-overlay">Deploy</a>
+                            {/* <a href="https://agenciadigital.vercel.app/" className="transition hover:border-roxo duration-500  border-overlay hover:text-roxo border-2 rounded-full px-6 py-3 text-overlay">Deploy</a> */}
                             <a href="https://github.com/Yasbarros/Agencia-Digital" className="transition hover:border-roxo hover:text-roxo duration-500 border-overlay border-2 rounded-full px-6 py-3 text-overlay">GitHub</a>
                     </div>
                 </div>
@@ -96,7 +96,7 @@ export default function Projects(){
                     </div>
 
                     <div className="flex flex-row gap-4">
-                        <button className="transition hover:border-roxo hover:text-roxo duration-500 border-overlay border-2 rounded-full px-6 py-3 text-overlay">Deploy</button>
+                        {/* <button className="transition hover:border-roxo hover:text-roxo duration-500 border-overlay border-2 rounded-full px-6 py-3 text-overlay">Deploy</button> */}
                         <a href='https://github.com/Yasbarros/ToDo-List' className="transition hover:border-roxo duration-500 border-overlay hover:text-roxo border-2 rounded-full px-6 py-3 text-overlay">GitHub</a>
                     </div>
 
@@ -106,7 +106,7 @@ export default function Projects(){
 
             <div className='flex flex-col md:flex-row-reverse md:gap-10'>
                 <div>
-                    <img className='md:w-[30rem] h-[14rem] rounded-2xl shadow-slate-600 dark:shadow-black shadow-xl' src={agencia} alt="agencia"></img>
+                    <img className='md:w-[30rem] h-[14rem] md:h-[20rem] rounded-2xl shadow-slate-600 dark:shadow-black shadow-xl' src={agencia} alt="agencia"></img>
                 </div>
                 <div className='md:flex md:flex-col justify-end'>
                     <div className='text-right mt-5'>
