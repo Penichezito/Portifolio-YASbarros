@@ -121,7 +121,7 @@ export default function Home(){
                     </button>
                 </div>
 
-                <div className="absolute flex justify-center items-center top-40 left-28 md:top-48 md:left-[12rem] z-0 md:w-[67rem] md:h-[25rem] w-48 h-60">
+                <div className="absolute flex justify-center items-center top-40 left-28 md:top-48 md:left-[12rem] z-0 md:w-[67rem] md:h-[67rem] w-48 h-60">
                     <div className="bg-gradient-to-r from-azul to-purpleLigth absolute inset-0 blur-3xl rounded-full opacity-45 md:opacity-20 transform rotate-12 origin-center"></div>
                 </div> 
 
