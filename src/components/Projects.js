@@ -19,7 +19,7 @@ import video2 from '../videos/todolist.mp4'
 
 function Modal({ onClose, videoSrc }) {
     return (
-      <dialog open className='z-50 md:m-auto pt-5 px-5 md:rounded-3xl rounded-xl bg-overlay fixed inset-0'>
+      <dialog open className='z-50 md:m-auto pt-5 px-0 md:rounded-3xl rounded-xl bg-overlay fixed inset-0'>
         <h1 className='text-white text-xl mb-7'>Demonstração em vídeo</h1>
         <video src={videoSrc} width={600} muted autoPlay controls/>
         <button className='mt-5 mb-5 border-white border-2 rounded-full px-6 md:py-3 text-white' onClick={onClose}>Fechar</button>
