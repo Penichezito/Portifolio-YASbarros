@@ -83,10 +83,10 @@ export default function Projects(){
                             <img className="w-11 h-6" src={php} alt='php'></img>
                         </div>
                     </div>
-                    <div className="flex flex-row gap-4 justify-end">
-                            <button id="but" className="transition hover:border-roxo duration-500 border-overlay hover:text-roxo border-2 rounded-full px-6 py-3 text-overlay" onClick={() => handleOpenModal(video1)}>Deploy</button>
+                    <div className="flex flex-row gap-2 justify-end">
+                            <button id="but" className="transition hover:border-roxo duration-500 border-overlay hover:text-roxo border-2 rounded-full w-28 h-12 items-center flex justify-center text-overlay" onClick={() => handleOpenModal(video1)}>{t('view')}</button>
 
-                            <a href="https://github.com/Yasbarros/Corretora-de-Imoveis" className="transition hover:border-roxo hover:text-roxo duration-500 border-overlay border-2 rounded-full px-6 py-3 text-overlay">GitHub</a>
+                            <a href="https://github.com/Yasbarros/Corretora-de-Imoveis" className="transition hover:border-roxo hover:text-roxo duration-500 border-overlay border-2 rounded-full w-28 h-12 items-center flex justify-center text-overlay">GitHub</a>
                     </div>
                 </div>
                 
@@ -122,9 +122,9 @@ export default function Projects(){
 
                     </div>
 
-                    <div className="flex flex-row gap-4">
-                        <button className="transition hover:border-roxo hover:text-roxo duration-500 border-overlay border-2 rounded-full px-6 py-3 text-overlay" onClick={() => handleOpenModal(video2)}>Deploy</button>
-                        <a href='https://github.com/Yasbarros/ToDo-List' className="transition hover:border-roxo duration-500 border-overlay hover:text-roxo border-2 rounded-full px-6 py-3 text-overlay">GitHub</a>
+                    <div className="flex flex-row gap-2">
+                        <button className="transition hover:border-roxo hover:text-roxo duration-500 border-overlay border-2 rounded-full w-28 h-12 items-center flex justify-center text-overlay" onClick={() => handleOpenModal(video2)}>{t('view')}</button>
+                        <a href='https://github.com/Yasbarros/ToDo-List' className="transition hover:border-roxo duration-500 border-overlay hover:text-roxo border-2 rounded-full w-28 h-12 items-center flex justify-center text-overlay">GitHub</a>
                     </div>
 
                 </div>
@@ -154,9 +154,9 @@ export default function Projects(){
                                 <img className="md:size-10 size-8" src={boots} alt='boots'></img>
                             </div>
                     </div>
-                    <div className="flex flex-row gap-4 justify-end">
-                            <a href="https://agenciadigital.vercel.app/" className="transition hover:border-roxo duration-500 hover:text-roxo border-overlay border-2 rounded-full px-6 py-3 text-overlay">Deploy</a>
-                            <a href="https://github.com/Yasbarros/Agencia-Digital" className="transition hover:border-roxo hover:text-roxo duration-500 border-overlay border-2 rounded-full px-6 py-3 text-overlay">GitHub</a>
+                    <div className="flex flex-row gap-2 justify-end">
+                            <a href="https://agenciadigital.vercel.app/" className="transition hover:border-roxo duration-500 hover:text-roxo border-overlay border-2 rounded-full w-28 h-12 items-center flex justify-center text-overlay">{t('view')}</a>
+                            <a href="https://github.com/Yasbarros/Agencia-Digital" className="transition hover:border-roxo hover:text-roxo duration-500 border-overlay border-2 rounded-full w-28 h-12 items-center flex justify-center text-overlay">GitHub</a>
                     </div>
                 </div>
                 
