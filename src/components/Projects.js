@@ -13,12 +13,38 @@ import react from '../icons/reactjs.png';
 import mysql from '../icons/mysql.png';
 import php from '../icons/php.png';
 import { React, useTranslation } from 'react-i18next';
+import video1 from '../videos/imobiliaria.webm'
+import { useState } from 'react';
+import video2 from '../videos/todolist.mp4'
+
+function Modal({ onClose, videoSrc }) {
+    return (
+      <dialog open className='z-50 md:m-auto pt-7 px-10 md:rounded-3xl rounded-lg bg-slate-950 fixed inset-0'>
+        <h1 className='text-white text-xl mb-7'>Demonstração em vídeo</h1>
+        <video src={videoSrc} width={600} muted autoPlay controls/>
+        <button className='mt-5 mb-5 border-white border-2 rounded-full px-6 md:py-3 text-white' onClick={onClose}>Fechar</button>
+      </dialog>
+    );
+  }
+  
 
 export default function Projects(){
 
     const { t } = useTranslation();
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const [currentVideo, setCurrentVideo] = useState(null);
 
+    const handleOpenModal = (videoSrc) => {
+        setCurrentVideo(videoSrc);
+        setIsModalOpen(true);
+    };
 
+    const handleCloseModal = () => {
+        setIsModalOpen(false);
+        setCurrentVideo(null);
+    };
+
+    
     return(
      
         <div id="projects" className="relative dark:bg-gray-950  dark:text-slate-300 container mx-auto px-5 grid justify-items-center text-center mt-10 font-plus md:gap-32 gap-16">
@@ -58,8 +84,9 @@ export default function Projects(){
                         </div>
                     </div>
                     <div className="flex flex-row gap-4 justify-end">
-                            {/* <a href="https://agenciadigital.vercel.app/" className="transition hover:border-roxo duration-500  border-overlay hover:text-roxo border-2 rounded-full px-6 py-3 text-overlay">Deploy</a> */}
-                            <a href="https://github.com/Yasbarros/Agencia-Digital" className="transition hover:border-roxo hover:text-roxo duration-500 border-overlay border-2 rounded-full px-6 py-3 text-overlay">GitHub</a>
+                            <button id="but" className="transition hover:border-roxo duration-500 border-overlay hover:text-roxo border-2 rounded-full px-6 py-3 text-overlay" onClick={() => handleOpenModal(video1)}>Deploy</button>
+
+                            <a href="https://github.com/Yasbarros/Corretora-de-Imoveis" className="transition hover:border-roxo hover:text-roxo duration-500 border-overlay border-2 rounded-full px-6 py-3 text-overlay">GitHub</a>
                     </div>
                 </div>
                 
@@ -96,7 +123,7 @@ export default function Projects(){
                     </div>
 
                     <div className="flex flex-row gap-4">
-                        {/* <button className="transition hover:border-roxo hover:text-roxo duration-500 border-overlay border-2 rounded-full px-6 py-3 text-overlay">Deploy</button> */}
+                        <button className="transition hover:border-roxo hover:text-roxo duration-500 border-overlay border-2 rounded-full px-6 py-3 text-overlay" onClick={() => handleOpenModal(video2)}>Deploy</button>
                         <a href='https://github.com/Yasbarros/ToDo-List' className="transition hover:border-roxo duration-500 border-overlay hover:text-roxo border-2 rounded-full px-6 py-3 text-overlay">GitHub</a>
                     </div>
 
@@ -136,9 +163,7 @@ export default function Projects(){
 
 
             </div>
-
-        
-
+            {isModalOpen && <Modal onClose={handleCloseModal} videoSrc={currentVideo} />}
 
         </div>
     )
