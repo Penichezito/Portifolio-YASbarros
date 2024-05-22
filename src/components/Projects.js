@@ -19,13 +19,24 @@ import video2 from '../videos/todolist.mp4'
 
 function Modal({ onClose, videoSrc }) {
     return (
-      <dialog open className='z-50 md:m-auto pt-5 px-0 md:rounded-3xl rounded-xl bg-overlay fixed inset-0'>
-        <h1 className='text-white text-xl mb-7'>Demonstração em vídeo</h1>
-        <video src={videoSrc} width={600} muted autoPlay controls/>
-        <button className='mt-5 mb-5 border-white border-2 rounded-full px-6 md:py-3 text-white' onClick={onClose}>Fechar</button>
-      </dialog>
+        <div className="fixed inset-0 md:m-auto md:mt-16 pt-5 flex items-center justify-center">
+        {/* Background overlay */}
+        <div className="absolute inset-0 bg-black opacity-80" onClick={onClose}></div>
+        {/* Modal content */}
+        <div className="relative bg-overlay pt-5 px-5 rounded-lg z-10">
+          <h1 className='text-white text-xl mb-7'>Demonstração em vídeo</h1>
+          <video src={videoSrc} width={600} muted autoPlay controls />
+          <button onClick={onClose} className='mt-5 mb-5 border-white border-2 rounded-full px-6 md:py-3 text-white'>Fechar</button>
+        </div>
+      </div>
     );
   }
+
+//   <dialog open className='z-50 md:m-auto pt-5 px-0 md:rounded-3xl rounded-xl bg-overlay fixed inset-0'>
+//         <h1 className='text-white text-xl mb-7'>Demonstração em vídeo</h1>
+//         <video src={videoSrc} width={600} muted autoPlay controls/>
+//         <button className='mt-5 mb-5 border-white border-2 rounded-full px-6 md:py-3 text-white' onClick={onClose}>Fechar</button>
+//       </dialog>
   
 
 export default function Projects(){
