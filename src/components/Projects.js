@@ -1,5 +1,4 @@
 
-import sp from '../img/setup.jpg';
 import agencia from '../img/agencia.jpg';
 import html from '../icons/html5.png';
 import css from '../icons/css3.png';
