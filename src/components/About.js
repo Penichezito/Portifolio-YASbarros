@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import eu from '../img/eu.jpg';
+import eu from '../img/eu.JPG';
 
 export default function About() {
     const { t } = useTranslation();
@@ -16,17 +16,17 @@ export default function About() {
                 </div>
             </div>
 
-            <div>
+            {/* <div>
                 <div className="absolute blur-3xl top-14 bg-gradient-to-t from-teal-200 to-purpleLigth opacity-25 rounded-full md:w-[30rem] md:h-[30rem]"></div>
                 <div className="absolute blur-3xl top-[15rem] left-[70rem] bg-gradient-to-b from-teal-200 to-purpleLigth opacity-20 rounded-full md:w-[25rem] md:h-[25rem] "></div>
-            </div>
+            </div> */}
             
 
         
             <div className="z-10 md:flex-row flex flex-col items-center">
-                <div className="relative flex justify-center md:mx-20">
+                <div className="relative flex justify-center md:mx-10">
                     {/* <div className=" absolute z-0 left-20 top-7 bg-red-300 shadow-lg w-[20rem] h-[27rem] rounded-[10px]"></div> */}
-                        <img className="shadow-lg rounded-[10px] z-10 md:w-[67rem] md:h-[32rem] w-[20rem] h-[27rem]" src={eu} alt={t('My Image')} />
+                        <img className="shadow-lg rounded-[50px] z-10 md:w-[67rem] md:h-[32rem] w-[20rem] h-[27rem]" src={eu} alt={t('My Image')} />
                     
                 </div>
 
