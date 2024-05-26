@@ -22,17 +22,16 @@ Aqui estão alguns dos projetos em destaque:
 1. **Sistemas para Imobiliária**
    - Descrição: Projeto fullstack para corretoras de imóveis que desenvolvi para conclusão da diciplina de programação web.
    - Tecnologias: HTML, Tailwind, JavaScript, React.js, PHP, MySQL e Laravel.
-   - [Link para o repositório/site do projeto]
 
 2. **Crud Laravel**
    - Descrição: Projeto desenvolvido para pratica e estudos com laravel.
    - Tecnologias: HTML, Tailwind, Laravel e JavaScript.
-   - [Link para o repositório/site do projeto]
+   
 
 3. **Agência Digital**
    - Descrição: Landing page para agencia de marketing digital desenvolvida para estudos.
    - Tecnologias: HTML, CSS, Bootstrap e JavaScript.
-   - [Link para o repositório/site do projeto]
+   - https://agenciadigital.vercel.app/
      
 
 ## Habilidades
