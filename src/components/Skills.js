@@ -148,7 +148,7 @@ export default function Skills(){
                             </div>
                             <div id='icon_vscode'className="flex flex-col">
                                 <div className="flex items-center justify-center rounded-full md:w-40 md:h-20 w-36 h-16 bg-white bg-opacity-5 shadow shadow-slate-900">
-                                    <img className=" md:w-15 md:h-14 w-12 h-10 " src={vscode}></img>
+                                    <img className=" md:w-15 md:h-14 w-10 h-10 " src={vscode}></img>
                                 </div>
                                 <p className="text-slate-400">{t("Vscode")}</p>
                             </div>
