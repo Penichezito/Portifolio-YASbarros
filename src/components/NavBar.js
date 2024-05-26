@@ -10,7 +10,7 @@ export default function NavBar() {
   };
 
   return (
-      <nav className={` dark:bg-gray-950 dark:text-slate-300 bg-white z-50 fixed top-0 flex justify-between py-6 text-lg font-mono font-plus text-slate-800 mb-14 w-full`}>
+      <nav className={` dark:bg-gray-950 dark:text-slate-300 bg-white z-50 fixed top-0 flex justify-between pb-2 pt-6 text-lg font-mono font-plus text-slate-800 mb-14 w-full`}>
         <a href="#home" className="ml-8">
           <span>
             <h1 className="md:text-3xl text-2xl font-medium font-logo">YASCODER</h1>
