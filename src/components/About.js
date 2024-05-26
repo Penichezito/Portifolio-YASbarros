@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import eu from '../img/eu.JPG';
+import eu from '../img/eu.jpg';
 
 export default function About() {
     const { t } = useTranslation();
