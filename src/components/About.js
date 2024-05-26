@@ -23,7 +23,7 @@ export default function About() {
                     
                 </div>
 
-                <div className="leading-6 text-justify font-medium p-8 mt-10">
+                <div className="leading-6 text-justify font-medium p-8 mt-8">
                     <p className="font-medium ">
                         <span className="text-xl font-semibold text-slate-700 dark:text-slate-300">{t('Hello, my name is Yasmim Barros!')}</span>
                         <br/>
