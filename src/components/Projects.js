@@ -165,7 +165,7 @@ export default function Projects(){
                             </div>
                     </div>
                     <div className="flex flex-row gap-2 justify-end">
-                            <a href="https://agenciadigital.vercel.app/" className="transition hover:border-roxo duration-500 hover:text-roxo border-overlay border-2 rounded-full w-28 h-12 items-center flex justify-center text-overlay">{t('view')}</a>
+                            <a target='_blank'  href="https://agenciadigital.vercel.app/" className="transition hover:border-roxo duration-500 hover:text-roxo border-overlay border-2 rounded-full w-28 h-12 items-center flex justify-center text-overlay">{t('view')}</a>
                             <a href="https://github.com/Yasbarros/Agencia-Digital" className="transition hover:border-roxo hover:text-roxo duration-500 border-overlay border-2 rounded-full w-28 h-12 items-center flex justify-center text-overlay">GitHub</a>
                     </div>
                 </div>
