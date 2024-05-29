@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import eu from '../img/eu.jpg';
+import eu from '../img/eu.JPG';
 
 export default function About() {
     const { t } = useTranslation();
@@ -17,9 +17,9 @@ export default function About() {
             </div>
         
             <div className="z-10 md:flex-row flex flex-col items-center">
-                <div className="relative flex justify-center md:mx-10 ">
+                <div className="relative flex justify-center md:mx-6">
                     {/* <div className=" absolute z-0 left-20 top-7 bg-red-300 shadow-lg w-[20rem] h-[27rem] rounded-[10px]"></div> */}
-                        <img className="shadow-lg shadow-slate-500 dark:shadow-black rounded-[40px] z-10 md:w-[69rem] md:h-[32rem] w-[21rem] h-[26rem]" src={eu} alt={t('My Image')} />
+                        <img className="shadow-lg shadow-slate-500 dark:shadow-black rounded-[40px] z-10 md:w-[70rem] md:h-[32rem] w-[21rem] h-[26rem]" src={eu} alt={t('My Image')} />
                     
                 </div>
 
